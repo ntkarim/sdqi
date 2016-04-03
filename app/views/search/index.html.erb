@@ -1,0 +1,151 @@
+<html>
+<head>
+
+
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even){background-color: #f2f2f2}
+
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+</style>
+<style>
+  body {
+    margin: 0;
+  }
+
+  ul.scroll {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 84%;
+    overflow: auto;
+
+  }
+
+  li.scroll a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+  }
+
+  li.scroll a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  li.scroll a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+</style>
+</head>
+<body>
+
+
+<div class="field">
+  <%= form_tag(search_index_path, method: "get") do %>
+
+
+      <%= label_tag(:weo_subject_code, "Subject") %>
+      <%= select_tag :weo_subject_code, options_for_select(@listsubjects.all.map{ |u| [u.subject_descriptor, u.subject_descriptor] }), {:include_blank => true, :default => nil} %>
+
+      <%= submit_tag("Search") %>
+
+      <ul class ="scroll">
+        <lh>Select Country</lh>
+        <%= collection_check_boxes(:country_list,:country_name,Search.select("DISTINCT(country)").order('country ASC'),:country,:country) do |cb| %>
+            <li class="scroll"><a><%= cb.label {cb.check_box + cb.text} %></a></li>
+        <% end %>
+      </ul>
+
+
+  <% end %>
+</div>
+
+<div style="margin-left:25%;padding:1px 16px;height:500px;">
+
+
+
+
+
+<table>
+  <thead>
+  <tr>
+    <th>Country code</th>
+    <th>ISO</th>
+    <th>Country</th>
+    <th>WEO Subject code</th>
+    <th>Unit</th>
+    <th>Scale</th>
+    <th>Data 1980</th>
+    <th>Data 1981</th>
+    <th>Data 1982</th>
+    <th>Data 1983</th>
+    <th>Data 1984</th>
+    <th>Data 1985</th>
+    <th>Data 1986</th>
+    <th>Data 1987</th>
+    <th>Data 1988</th>
+    <th>Data 1989</th>
+    <th>Data 1990</th>
+    <th colspan="3"></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @displays.each do |request| %>
+      <tr>
+        <td><%= request.weo_country_code %></td>
+        <td><%= request.iso %></td>
+        <td><%= request.country %></td>
+        <td><%= request.weo_subject_code %></td>
+        <td><%= request.units %></td>
+        <td><%= request.scale %></td>
+        <td><%= request.data_1980 %></td>
+        <td><%= request.data_1981 %></td>
+        <td><%= request.data_1982 %></td>
+        <td><%= request.data_1983 %></td>
+        <td><%= request.data_1984 %></td>
+        <td><%= request.data_1985 %></td>
+        <td><%= request.data_1986 %></td>
+        <td><%= request.data_1987 %></td>
+        <td><%= request.data_1988 %></td>
+        <td><%= request.data_1989 %></td>
+        <td><%= request.data_1990 %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+
+  <% if (@chart != nil) %>
+      <div class="intro-description">
+        <h2>Column Chart View</h2>
+        <%= high_chart("some_id", @chart) %>
+        <br/><br/>
+        <h2>Bar Chart View</h2>
+        <%= high_chart("some_id2", @chart1) %>
+        <br/><br/>
+        <h2>Line Chart View</h2>
+        <%= high_chart("some_id3", @chart2) %>
+      </div>
+  <% end %>
+
+</div>
+</body>
+</html>

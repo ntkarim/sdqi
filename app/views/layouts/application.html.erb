@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SDQI Project Team 2</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<!-- site-navigation start -->
+<nav id="mainNavigation" class="navbar navbar-dafault main-navigation" role="navigation">
+  <div class="container">
+
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <!-- navbar logo -->
+      <div class="navbar-brand">
+        <span class="sr-only">Avada Pro Agency</span>
+        <%= link_to image_tag("/assets/images/main_logo.png"), root_url, {class:"img-responsive center-block", alt:"logo"}%>
+      </div>
+      <!-- navbar logo -->
+
+    </div><!-- /.navbar-header -->
+
+    <!-- nav links -->
+    <div class="collapse navbar-collapse" id="main-nav-collapse">
+      <ul class="nav navbar-nav navbar-right text-uppercase">
+        <li>
+          <%= link_to "Home", root_url %>
+        </li>
+
+
+        <% if user_signed_in? %>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Statistical View</span></a>
+          <ul class="dropdown-menu">
+            <li>
+              <%= link_to "View Data in Tables", search_index_path %>
+            </li>
+            <li>
+              <%= link_to "View Data in Charts", search_index_path %>
+            </li>
+          </ul>  <!-- end of /.dropdown-menu -->
+        </li> <!-- end of /.dropdown -->
+        <% end %>
+        <li>
+          <a href="#"><span>Contact Us</span></a>
+        </li>
+
+        <li>
+          <a href="#"><span>About Us</span></a>
+        </li>
+
+        <% if user_signed_in? %>
+            <li>
+            <li><%= link_to "Sign out", destroy_user_session_path, method: :delete %></li>
+            </li>
+        <% else %>
+            <li><%= link_to "Sign up", new_user_registration_path %></li>
+            <li><%= link_to "Sign in", new_user_session_path %></li>.
+        <% end %>
+
+      </ul>
+    </div><!-- nav links -->
+
+  </div><!-- /.container -->
+</nav>
+<%= yield %>
+
+</body>
+</html>
