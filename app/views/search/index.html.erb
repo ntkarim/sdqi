@@ -61,10 +61,13 @@
 <div class="field">
   <%= form_tag(search_index_path, method: "get") do %>
 
-
       <%= label_tag(:weo_subject_code, "Subject") %>
       <%= select_tag :weo_subject_code, options_for_select(@listsubjects.all.map{ |u| [u.subject_descriptor, u.subject_descriptor] }), {:include_blank => true, :default => nil} %>
 
+      <%= label_tag(:year1, "From Year :") %>
+      <%= select_tag :year1, options_for_select(@years)%>
+      <%= label_tag(:year2, "To Year :") %>
+      <%= select_tag :year2, options_for_select(@years)%>
       <%= submit_tag("Search") %>
 
       <ul class ="scroll">
@@ -77,6 +80,7 @@
 
   <% end %>
 </div>
+
 
 <div style="margin-left:25%;padding:1px 16px;height:500px;">
 

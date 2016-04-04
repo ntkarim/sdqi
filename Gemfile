@@ -1,11 +1,17 @@
 source 'https://rubygems.org'
 
+
+#Heroku Gem
 gem 'rails_12factor', group: :production
+
+#Charts gem
 gem 'lazy_high_charts'
 
-#Devise
+#Devise gem
 gem 'devise'
 
+#Bower gem
+gem 'bower-rails' ,'~> 0.10.0'
 # Use existing database
 gem 'yaml_db'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

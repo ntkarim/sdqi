@@ -1,0 +1,14 @@
+  [1m[36mActiveRecord::SchemaMigration Load (19.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (380.6ms)[0m  [1mDROP DATABASE IF EXISTS "TestAddFilter_test"[0m
+  [1m[35m (1638.7ms)[0m  CREATE DATABASE "TestAddFilter_test" ENCODING = 'unicode'
+  [1m[36mSQL (0.1ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (73.3ms)[0m  CREATE TABLE "country_data" ("weo_country_code" character varying(5), "iso" character varying(3), "weo_subject_code" character varying(50), "country" character varying(50), "subject_descriptor" character varying(100), "subject_notes" text, "units" character varying(50), "scale" character varying(50), "country_series_notes" text, "data_1980" text, "data_1981" text, "data_1982" text, "data_1983" text, "data_1984" text, "data_1985" text, "data_1986" text, "data_1987" text, "data_1988" text, "data_1989" text, "data_1990" text, "data_1991" text, "data_1992" text, "data_1993" text, "data_1994" text, "data_1995" text, "data_1996" text, "data_1997" text, "data_1998" text, "data_1999" text, "data_2000" text, "data_2001" text, "data_2002" text, "data_2003" text, "data_2004" text, "data_2005" text, "data_2006" text, "data_2007" text, "data_2008" text, "data_2009" text, "data_2010" text, "data_2011" text, "data_2012" text, "data_2013" text, "data_2014" text, "data_2015" text, "data_2016" text, "data_2017" text, "data_2018" text, "data_2019" text, "data_2020" text, "estimate_start_after" character varying(10)) 
+  [1m[36m (54.4ms)[0m  [1mCREATE TABLE "database_structures" ("id" serial primary key) [0m
+  [1m[35m (54.8ms)[0m  CREATE TABLE "searches" ("id" serial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (49.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (64.9ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (10.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160327170336')
+  [1m[36m (10.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160327165215')[0m
+  [1m[35m (11.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160327165323')
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
