@@ -44725,3 +44725,517 @@ Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e4
 
 
 Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-04 19:53:04 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&weo_subject_code=&year1=1980&year2=1986&commit=Search&country_list%5Bcountry_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-04 20:29:16 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "weo_subject_code"=>"", "year1"=>"1980", "year2"=>"1986", "commit"=>"Search", "country_list"=>{"country_name"=>[""]}}
+  [1m[36mSearch Load (3.2ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (3.0ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (0.3ms)[0m  [1mSELECT "country_data".* FROM "country_data" WHERE 1=0[0m
+  Rendered search/index.html.erb within layouts/application (57.2ms)
+Completed 200 OK in 97ms (Views: 84.7ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/search/index" for 127.0.0.1 at 2016-04-04 21:04:35 +0700
+Processing by SearchController#index as HTML
+  [1m[35mSearch Load (3.7ms)[0m  SELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC
+  [1m[36mSearch Load (3.0ms)[0m  [1mSELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC
+  [1m[36mSearch Load (1.8ms)[0m  [1mSELECT "country_data".* FROM "country_data" WHERE "country_data"."country" = $1[0m  [["country", ""]]
+  Rendered search/index.html.erb within layouts/application (63.8ms)
+Completed 200 OK in 104ms (Views: 92.2ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/search/index" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+Processing by SearchController#index as HTML
+  [1m[35mSearch Load (3.6ms)[0m  SELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC
+  [1m[36mSearch Load (5.2ms)[0m  [1mSELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC
+  [1m[36mSearch Load (1.9ms)[0m  [1mSELECT "country_data".* FROM "country_data" WHERE "country_data"."country" = $1[0m  [["country", ""]]
+  Rendered search/index.html.erb within layouts/application (51.0ms)
+Completed 200 OK in 84ms (Views: 72.6ms | ActiveRecord: 10.7ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-04 21:04:40 +0700
+
+
+Started GET "/search/index" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+Processing by SearchController#index as HTML
+  [1m[35mSearch Load (3.2ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (3.4ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (1.7ms)[0m  SELECT "country_data".* FROM "country_data" WHERE "country_data"."country" = $1  [["country", ""]]
+  Rendered search/index.html.erb within layouts/application (44.8ms)
+Completed 200 OK in 74ms (Views: 65.6ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-04 21:05:24 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1980&commit=Search&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-04 21:05:28 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1980", "commit"=>"Search", "country_list"=>{"country_name"=>[""]}, "subject_list"=>{"subject_name"=>[""]}}
+  [1m[36mSearch Load (4.2ms)[0m  [1mSELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC[0m
+  [1m[35mSearch Load (3.8ms)[0m  SELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC
+  [1m[36mSearch Load (0.3ms)[0m  [1mSELECT "country_data".* FROM "country_data" WHERE 1=0[0m
+  Rendered search/index.html.erb within layouts/application (46.8ms)
+Completed 200 OK in 80ms (Views: 71.2ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1980&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=United+States&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-04 21:05:52 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1980", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", "United States", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+  [1m[35mSearch Load (3.7ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (3.7ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (2.5ms)[0m  SELECT "country_data".* FROM "country_data" WHERE "country_data"."country" IN ('United Kingdom', 'United States')
+  Rendered search/index.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 89ms (Views: 78.6ms | ActiveRecord: 9.9ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1981&commit=Search&country_list[country_name][]=United+Kingdom&country_list[country_name][]=United+States&country_list[country_name][]=&subject_list[subject_name][]=Employment&subject_list[subject_name][]=" for 127.0.0.1 at 2016-04-04 21:06:32 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1981", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", "United States", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+  [1m[36mSearch Load (3.7ms)[0m  [1mSELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC[0m
+  [1m[35mSearch Load (3.7ms)[0m  SELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC
+  [1m[36mSearch Load (2.9ms)[0m  [1mSELECT "country_data".* FROM "country_data" WHERE "country_data"."country" IN ('United Kingdom', 'United States')[0m
+  Rendered search/index.html.erb within layouts/application (56.2ms)
+Completed 200 OK in 91ms (Views: 79.8ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1981&commit=Search&country_list[country_name][]=United+Kingdom&country_list[country_name][]=United+States&country_list[country_name][]=&subject_list[subject_name][]=Employment&subject_list[subject_name][]=" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1981", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", "United States", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+  [1m[35mSearch Load (3.8ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (3.6ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (2.5ms)[0m  SELECT "country_data".* FROM "country_data" WHERE "country_data"."country" IN ('United Kingdom', 'United States')
+  Rendered search/index.html.erb within layouts/application (49.9ms)
+Completed 200 OK in 79ms (Views: 67.7ms | ActiveRecord: 9.9ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:35 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1981&commit=Search&country_list[country_name][]=United+Kingdom&country_list[country_name][]=United+States&country_list[country_name][]=&subject_list[subject_name][]=Employment&subject_list[subject_name][]=" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1981", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", "United States", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+  [1m[36mSearch Load (3.0ms)[0m  [1mSELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC[0m
+  [1m[35mSearch Load (3.6ms)[0m  SELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC
+  [1m[36mSearch Load (2.4ms)[0m  [1mSELECT "country_data".* FROM "country_data" WHERE "country_data"."country" IN ('United Kingdom', 'United States')[0m
+  Rendered search/index.html.erb within layouts/application (84.1ms)
+Completed 200 OK in 124ms (Views: 113.9ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-04 21:06:36 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-04 21:07:07 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>[""]}, "subject_list"=>{"subject_name"=>[""]}}
+  [1m[35mSearch Load (3.1ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (3.6ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (0.4ms)[0m  SELECT "country_data".* FROM "country_data" WHERE 1=0
+  Rendered search/index.html.erb within layouts/application (51.1ms)
+Completed 200 OK in 81ms (Views: 72.8ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-04 21:07:34 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>[""]}, "subject_list"=>{"subject_name"=>[""]}}
+  [1m[36mSearch Load (5.4ms)[0m  [1mSELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC[0m
+  [1m[35mSearch Load (5.6ms)[0m  SELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC
+  [1m[36mSearch Load (0.4ms)[0m  [1mSELECT "country_data".* FROM "country_data" WHERE 1=0[0m
+  Rendered search/index.html.erb within layouts/application (109.0ms)
+Completed 200 OK in 166ms (Views: 150.9ms | ActiveRecord: 13.1ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700

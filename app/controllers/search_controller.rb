@@ -25,7 +25,7 @@ class SearchController < ApplicationController
 
     year1 = params[:year1]
     year2 = params[:year2]
-    yearcount = year2.to_i - year1.to_i + 1
+    yearcount = year2.to_i - year1.to_i
 
     puts year2.to_i - year1.to_i + 1
     year0 = 0
@@ -47,7 +47,6 @@ puts yearquery  # year query is a query statement
 
       #################################### Begin of Query Section ###########################
     if params[:country_list].present?
-
 
       key = params[:country_list].values
       values = Array.new

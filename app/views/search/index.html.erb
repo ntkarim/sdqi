@@ -61,9 +61,6 @@
 <div class="field">
   <%= form_tag(search_index_path, method: "get") do %>
 
-      <%= label_tag(:weo_subject_code, "Subject") %>
-      <%= select_tag :weo_subject_code, options_for_select(@listsubjects.all.map{ |u| [u.subject_descriptor, u.subject_descriptor] }), {:include_blank => true, :default => nil} %>
-
       <%= label_tag(:year1, "From Year :") %>
       <%= select_tag :year1, options_for_select(@years)%>
       <%= label_tag(:year2, "To Year :") %>
@@ -73,6 +70,10 @@
       <ul class ="scroll">
         <lh>Select Country</lh>
         <%= collection_check_boxes(:country_list,:country_name,Search.select("DISTINCT(country)").order('country ASC'),:country,:country) do |cb| %>
+            <li class="scroll"><a><%= cb.label {cb.check_box + cb.text} %></a></li>
+        <% end %>
+        <lh>Select Subjects</lh>
+        <%= collection_check_boxes(:subject_list,:subject_name,Search.select("DISTINCT(subject_descriptor)").order('subject_descriptor ASC'),:subject_descriptor,:subject_descriptor) do |cb| %>
             <li class="scroll"><a><%= cb.label {cb.check_box + cb.text} %></a></li>
         <% end %>
       </ul>
