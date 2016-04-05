@@ -73,9 +73,27 @@ ActiveRecord::Schema.define(version: 20160331112712) do
   create_table "database_structures", force: :cascade do |t|
   end
 
+  create_table "my_stocks", id: false, force: :cascade do |t|
+    t.string  "symbol",        limit: 20, null: false
+    t.integer "n_shares",                 null: false
+    t.date    "date_acquired",            null: false
+  end
+
+  create_table "newly_acquired_stocks", id: false, force: :cascade do |t|
+    t.string  "symbol",        limit: 20, null: false
+    t.integer "n_shares",                 null: false
+    t.date    "date_acquired",            null: false
+  end
+
   create_table "searches", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "stock_prices", id: false, force: :cascade do |t|
+    t.string   "symbol",     limit: 20
+    t.datetime "quote_date"
+    t.decimal  "price"
   end
 
   create_table "users", force: :cascade do |t|

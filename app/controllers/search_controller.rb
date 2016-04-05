@@ -8,10 +8,7 @@ class SearchController < ApplicationController
     distinctsubject = Search.select("DISTINCT(subject_descriptor)")
     @listsubjects = distinctsubject.order('subject_descriptor ASC')
 
-
-
-
-      ################################### End of Country List Section ##############################################
+    ################################### End of Country List Section ##############################################
 
     ####################################  Begin of Year list Section #######################
     inityear = 1980
@@ -29,7 +26,18 @@ class SearchController < ApplicationController
 
     puts year2.to_i - year1.to_i + 1
     year0 = 0
-yearquery = ""
+    yearquery = ""
+
+    @chosenYears = Array.new
+    firstYear = params[:year1]
+    firstYearinInt = firstYear.to_i
+    while(year0<=yearcount)
+      @chosenYears.insert(year0,firstYearinInt)
+      firstYearinInt = firstYearinInt + 1
+      year0 = year0 + 1
+    end
+
+    year0 = 0
     for year0 in 0..yearcount
       currentyear = year1.to_i + year0
       if year0 == 0
@@ -39,13 +47,10 @@ yearquery = ""
       end
 
     end
-puts yearquery  # year query is a query statement
 
     ####################################### End of Year list Section ################################################
 
-
-
-      #################################### Begin of Query Section ###########################
+     #################################### Begin of Query Section ###########################
     if params[:country_list].present?
 
       key = params[:country_list].values
@@ -56,24 +61,23 @@ puts yearquery  # year query is a query statement
         i = i+1
       end
 
-      if params[:weo_subject_code].present?
-
-        @displays = Search.where(:country => values).where(:subject_descriptor => params[:weo_subject_code])
-
-
-        @displaysyears = @displays.select(yearquery)  #Query testing
-      #  puts @displaysyears.first
-
-        puts @displaysyears.first.data_1980
-        puts @displaysyears.first.data_1981
-        puts"yearrrrrrrrrrrrrrrrrrrrrrrrr"
-      else
-
-
-        @displays = Search.where(:country => values)
-
+      #//////////////// Added for multiple subjects ////////////////////////////////
+      subjectkey = params[:subject_list].values
+      subvalues = Array.new
+      i = 0
+      while i < subjectkey.first.size-1
+        subvalues.insert(i, subjectkey.first[i])
+        i = i+1
       end
 
+      #//////////////// Added for multiple subjects ////////////////////////////////
+      if params[:subject_list].present?
+        @displays = Search.where(:country => values).where(:subject_descriptor => subvalues)
+        @displaysyears = @displays.select("(country),(weo_country_code),(scale),(units),(iso),(weo_subject_code)," + yearquery)  #Query testing
+
+      else
+        @displays = Search.where(:country => values)
+      end
     else
       @displays = Search.where(:country => "")
 
@@ -82,70 +86,30 @@ puts yearquery  # year query is a query statement
 
     ###################################### Begin of Chart Section ###################################
 
-    if params[:weo_subject_code].present?
+    if params[:subject_list].present?
       @chart = LazyHighCharts::HighChart.new('graph') do |f|
         s = values.map(&:inspect).join(', ')
-        f.title(text: "#{params[:weo_subject_code]} For " + s + " from 1980-1984")
-        f.xAxis(categories: ["1980", "1981", "1982", "1983", "1984"])
+        f.title(text: "#{subvalues} For " + s + " from " + params[:year1] + "-" + params[:year2])
+        f.xAxis(categories: @chosenYears)
         i = 0
         while i < values.length
-          @displayByCountry = Search.select("data_1980, data_1981, data_1982, data_1983, data_1984, scale").where(:country => values[i]).where(:subject_descriptor => params[:weo_subject_code])
+          @displayByCountry = Search.select(yearquery + ",(scale)").where(:country => values[i]).where(:subject_descriptor => subvalues)
           countryValue = []
 
-          j = 0;
+          j = 0
           @displayByCountry.each do |request|
             if (j == 0)
-              countryValue.push(request.data_1980.to_f)
-              countryValue.push(request.data_1981.to_f)
-              countryValue.push(request.data_1982.to_f)
-              countryValue.push(request.data_1983.to_f)
-              countryValue.push(request.data_1984.to_f)
+              dataforYearChosen = 0
+              while(dataforYearChosen < @chosenYears.length)
+                String temp = ""
+                temp = "data_" + @chosenYears[dataforYearChosen].to_s
+                countryValue.push(request.send(temp.to_sym).to_f)
+                dataforYearChosen = dataforYearChosen + 1
+                end
               j = j + 1
             end
-          end
-          f.series(name: "#{values[i]}", yAxis: 0, data: countryValue)
-          #f.series(name: "Population in Millions", yAxis: 1, data: [310, 127, 1340, 81, 65])
-          scaleUnits = ""
-          @displayByCountry.each do |request|
-            scaleUnits = request.scale
-          end
-
-          if scaleUnits != nil
-            f.yAxis [
-                        {title: {text: "#{params[:weo_subject_code]} in " + scaleUnits, margin: 70}},
-                    ]
-          else
-            f.yAxis [
-                        {title: {text: "#{params[:weo_subject_code]}", margin: 70}},
-                    ]
-          end
-          i = i + 1
-        end
-        f.legend(align: 'right', verticalAlign: 'top', y: 75, x: -50, layout: 'vertical')
-        f.chart({defaultSeriesType: "column"})
-      end
-
-
-      @chart1 = LazyHighCharts::HighChart.new('graph') do |f|
-        s = values.map(&:inspect).join(', ')
-        f.title(text: "#{params[:weo_subject_code]} For " + s + " from 1980-1984")
-        f.xAxis(categories: ["1980", "1981", "1982", "1983", "1984"])
-        i = 0
-        while i < values.length
-          @displayByCountry = Search.select("data_1980, data_1981, data_1982, data_1983, data_1984, scale").where(:country => values[i]).where(:subject_descriptor => params[:weo_subject_code])
-          countryValue = []
-          j = 0;
-          @displayByCountry.each do |request|
-            if (j == 0)
-              countryValue.push(request.data_1980.to_f)
-              countryValue.push(request.data_1981.to_f)
-              countryValue.push(request.data_1982.to_f)
-              countryValue.push(request.data_1983.to_f)
-              countryValue.push(request.data_1984.to_f)
-              j = j + 1
             end
-          end
-
+          puts countryValue
           f.series(name: "#{values[i]}", yAxis: 0, data: countryValue)
           scaleUnits = ""
           @displayByCountry.each do |request|
@@ -154,58 +118,17 @@ puts yearquery  # year query is a query statement
 
           if scaleUnits != nil
             f.yAxis [
-                        {title: {text: "#{params[:weo_subject_code]} in " + scaleUnits, margin: 70}},
+                        {title: {text: "#{subvalues} in " + scaleUnits, margin: 70}},
                     ]
           else
             f.yAxis [
-                        {title: {text: "#{params[:weo_subject_code]}", margin: 70}},
+                        {title: {text: "#{subvalues}", margin: 70}},
                     ]
           end
           i = i + 1
         end
         f.legend(align: 'right', verticalAlign: 'top', y: 75, x: -50, layout: 'vertical')
-        f.chart({defaultSeriesType: "bar"})
-      end
-
-      @chart2 = LazyHighCharts::HighChart.new('graph') do |f|
-        s = values.map(&:inspect).join(', ')
-        f.title(text: "#{params[:weo_subject_code]} For " + s + " from 1980-1984")
-        f.xAxis(categories: ["1980", "1981", "1982", "1983", "1984"])
-        i = 0
-        while i < values.length
-          @displayByCountry = Search.select("data_1980, data_1981, data_1982, data_1983, data_1984, scale").where(:country => values[i]).where(:subject_descriptor => params[:weo_subject_code])
-          countryValue = []
-          j = 0;
-          @displayByCountry.each do |request|
-            if (j == 0)
-              countryValue.push(request.data_1980.to_f)
-              countryValue.push(request.data_1981.to_f)
-              countryValue.push(request.data_1982.to_f)
-              countryValue.push(request.data_1983.to_f)
-              countryValue.push(request.data_1984.to_f)
-              j = j + 1
-            end
-          end
-
-          f.series(name: "#{values[i]}", yAxis: 0, data: countryValue)
-          scaleUnits = ""
-          @displayByCountry.each do |request|
-            scaleUnits = request.scale
-          end
-
-          if scaleUnits != nil
-            f.yAxis [
-                        {title: {text: "#{params[:weo_subject_code]} in " + scaleUnits, margin: 70}},
-                    ]
-          else
-            f.yAxis [
-                        {title: {text: "#{params[:weo_subject_code]}", margin: 70}},
-                    ]
-          end
-          i = i + 1
-        end
-        f.legend(align: 'right', verticalAlign: 'top', y: 75, x: -50, layout: 'vertical')
-        f.chart({defaultSeriesType: 'line'})
+        f.chart({defaultSeriesType: "area"})
       end
     end
 ########################################## End of Chart Section ########################################

@@ -114,7 +114,7 @@
   </thead>
 
   <tbody>
-  <% @displays.each do |request| %>
+  <% @displaysyears.each do |request| %>
       <tr>
         <td><%= request.weo_country_code %></td>
         <td><%= request.iso %></td>
@@ -125,14 +125,6 @@
         <td><%= request.data_1980 %></td>
         <td><%= request.data_1981 %></td>
         <td><%= request.data_1982 %></td>
-        <td><%= request.data_1983 %></td>
-        <td><%= request.data_1984 %></td>
-        <td><%= request.data_1985 %></td>
-        <td><%= request.data_1986 %></td>
-        <td><%= request.data_1987 %></td>
-        <td><%= request.data_1988 %></td>
-        <td><%= request.data_1989 %></td>
-        <td><%= request.data_1990 %></td>
       </tr>
   <% end %>
   </tbody>
@@ -143,11 +135,6 @@
         <h2>Column Chart View</h2>
         <%= high_chart("some_id", @chart) %>
         <br/><br/>
-        <h2>Bar Chart View</h2>
-        <%= high_chart("some_id2", @chart1) %>
-        <br/><br/>
-        <h2>Line Chart View</h2>
-        <%= high_chart("some_id3", @chart2) %>
       </div>
   <% end %>
 

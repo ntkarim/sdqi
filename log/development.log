@@ -45239,3 +45239,1872 @@ Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993
 
 
 Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-04 21:07:35 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-04 21:10:34 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>[""]}, "subject_list"=>{"subject_name"=>[""]}}
+  [1m[35mSearch Load (5.4ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (5.8ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (0.4ms)[0m  SELECT "country_data".* FROM "country_data" WHERE 1=0
+  Rendered search/index.html.erb within layouts/application (118.0ms)
+Completed 200 OK in 214ms (Views: 197.6ms | ActiveRecord: 13.5ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-04 21:10:35 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1983&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=United+States&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Current+account+balance&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-04 21:11:11 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1983", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", "United States", ""]}, "subject_list"=>{"subject_name"=>["Current account balance", "Employment", ""]}}
+  [1m[36mSearch Load (3.0ms)[0m  [1mSELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC[0m
+  [1m[35mSearch Load (3.3ms)[0m  SELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC
+  [1m[36mSearch Load (2.5ms)[0m  [1mSELECT "country_data".* FROM "country_data" WHERE "country_data"."country" IN ('United Kingdom', 'United States')[0m
+  Rendered search/index.html.erb within layouts/application (58.9ms)
+Completed 200 OK in 92ms (Views: 82.5ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1983&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=United+States&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Current+account+balance&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1983", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", "United States", ""]}, "subject_list"=>{"subject_name"=>["Current account balance", "Employment", ""]}}
+  [1m[35mSearch Load (3.1ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (3.5ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (2.5ms)[0m  SELECT "country_data".* FROM "country_data" WHERE "country_data"."country" IN ('United Kingdom', 'United States')
+  Rendered search/index.html.erb within layouts/application (91.3ms)
+Completed 200 OK in 128ms (Views: 115.1ms | ActiveRecord: 10.6ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:28 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1983&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=United+States&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Current+account+balance&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1983", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", "United States", ""]}, "subject_list"=>{"subject_name"=>["Current account balance", "Employment", ""]}}
+  [1m[36mSearch Load (3.1ms)[0m  [1mSELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC[0m
+  [1m[35mSearch Load (3.5ms)[0m  SELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC
+  [1m[36mSearch Load (3.6ms)[0m  [1mSELECT "country_data".* FROM "country_data" WHERE "country_data"."country" IN ('United Kingdom', 'United States')[0m
+  Rendered search/index.html.erb within layouts/application (95.0ms)
+Completed 200 OK in 159ms (Views: 145.9ms | ActiveRecord: 11.4ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-04 21:11:58 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1983&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=United+States&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Current+account+balance&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1983", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", "United States", ""]}, "subject_list"=>{"subject_name"=>["Current account balance", "Employment", ""]}}
+  [1m[35mSearch Load (4.3ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (3.4ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (2.5ms)[0m  SELECT "country_data".* FROM "country_data" WHERE "country_data"."country" IN ('United Kingdom', 'United States')
+  Rendered search/index.html.erb within layouts/application (92.3ms)
+Completed 200 OK in 135ms (Views: 118.7ms | ActiveRecord: 12.8ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-04 21:12:31 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1983&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=United+States&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Current+account+balance&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-04 21:15:05 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1983", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", "United States", ""]}, "subject_list"=>{"subject_name"=>["Current account balance", "Employment", ""]}}
+  [1m[36mSearch Load (49.4ms)[0m  [1mSELECT "country_data".* FROM "country_data"[0m
+  [1m[35mSearch Load (4.4ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (3.4ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+Completed 500 Internal Server Error in 521ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `put' for #<SearchController:0x007fcd772c0c58>):
+  app/controllers/search_controller.rb:69:in `index'
+
+
+  Rendered /home/teeramoo/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /home/teeramoo/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/teeramoo/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/teeramoo/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.9ms)
+  Rendered /home/teeramoo/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/teeramoo/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/teeramoo/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/teeramoo/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/teeramoo/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (10.9ms)
+  Rendered /home/teeramoo/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/teeramoo/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/teeramoo/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (22.3ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1983&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=United+States&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Current+account+balance&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1983", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", "United States", ""]}, "subject_list"=>{"subject_name"=>["Current account balance", "Employment", ""]}}
+  [1m[35mSearch Load (3.3ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (3.2ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (2.6ms)[0m  SELECT "country_data".* FROM "country_data" WHERE "country_data"."country" IN ('United Kingdom', 'United States')
+  Rendered search/index.html.erb within layouts/application (64.5ms)
+Completed 200 OK in 96ms (Views: 84.2ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-04 21:15:12 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1983&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=United+States&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Current+account+balance&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1983", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", "United States", ""]}, "subject_list"=>{"subject_name"=>["Current account balance", "Employment", ""]}}
+  [1m[36mSearch Load (5.4ms)[0m  [1mSELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC[0m
+  [1m[35mSearch Load (5.5ms)[0m  SELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC
+  [1m[36mSearch Load (3.5ms)[0m  [1mSELECT "country_data".* FROM "country_data" WHERE "country_data"."country" IN ('United Kingdom', 'United States') AND "country_data"."subject_descriptor" IN ('Current account balance', 'Employment')[0m
+  Rendered search/index.html.erb within layouts/application (69.5ms)
+Completed 200 OK in 107ms (Views: 89.1ms | ActiveRecord: 16.4ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-04 21:16:47 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.9ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'country_data'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.7ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'database_structures'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.6ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'my_stocks'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.6ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'newly_acquired_stocks'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.6ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'searches'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.6ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'stock_prices'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.6ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1983&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Total+investment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 14:57:53 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1983", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Total investment", ""]}}
+  [1m[35mSearch Load (8.1ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (7.8ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (3.2ms)[0m  SELECT "country_data".* FROM "country_data" WHERE "country_data"."country" = 'United Kingdom' AND "country_data"."subject_descriptor" = 'Total investment'
+  Rendered search/index.html.erb within layouts/application (163.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1473ms (Views: 1428.6ms | ActiveRecord: 24.0ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-05 14:57:54 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 14:58:10 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+  [1m[35mSearch Load (4.5ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (4.1ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (2.8ms)[0m  SELECT "country_data".* FROM "country_data" WHERE "country_data"."country" = 'United Kingdom' AND "country_data"."subject_descriptor" = 'Employment'
+  Rendered search/index.html.erb within layouts/application (75.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 120ms (Views: 107.6ms | ActiveRecord: 11.8ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:07:37 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+  [1m[35mSearch Load (4.5ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (7.1ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (4.6ms)[0m  SELECT "country_data".* FROM "country_data" WHERE "country_data"."country" = 'United Kingdom' AND "country_data"."subject_descriptor" = 'Employment'
+  Rendered search/index.html.erb within layouts/application (174.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 609ms (Views: 573.2ms | ActiveRecord: 20.2ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-05 15:07:38 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:08:20 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+  [1m[35mSearch Load (4.5ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (4.5ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (3.5ms)[0m  SELECT (country),(weo_country_code),(units),(iso),(weo_subject_code),(data_1980),(data_1981),(data_1982) FROM "country_data" WHERE "country_data"."country" = 'United Kingdom' AND "country_data"."subject_descriptor" = 'Employment'
+  Rendered search/index.html.erb within layouts/application (112.6ms)
+Completed 500 Internal Server Error in 138ms (ActiveRecord: 15.2ms)
+
+ActionView::Template::Error (missing attribute: scale):
+    121:         <td><%= request.country %></td>
+    122:         <td><%= request.weo_subject_code %></td>
+    123:         <td><%= request.units %></td>
+    124:         <td><%= request.scale %></td>
+    125:         <td><%= request.data_1980 %></td>
+    126:         <td><%= request.data_1981 %></td>
+    127:         <td><%= request.data_1982 %></td>
+  app/views/search/index.html.erb:124:in `block in _app_views_search_index_html_erb___2783753030070750809_70337304017240'
+  app/views/search/index.html.erb:117:in `_app_views_search_index_html_erb___2783753030070750809_70337304017240'
+
+
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.1ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.5ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:08:23 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+  [1m[36mSearch Load (4.3ms)[0m  [1mSELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC[0m
+  [1m[35mSearch Load (3.7ms)[0m  SELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC
+  [1m[36mSearch Load (2.3ms)[0m  [1mSELECT (country),(weo_country_code),(units),(iso),(weo_subject_code),(data_1980),(data_1981),(data_1982) FROM "country_data" WHERE "country_data"."country" = 'United Kingdom' AND "country_data"."subject_descriptor" = 'Employment'[0m
+  Rendered search/index.html.erb within layouts/application (61.9ms)
+Completed 500 Internal Server Error in 64ms (ActiveRecord: 10.3ms)
+
+ActionView::Template::Error (missing attribute: scale):
+    121:         <td><%= request.country %></td>
+    122:         <td><%= request.weo_subject_code %></td>
+    123:         <td><%= request.units %></td>
+    124:         <td><%= request.scale %></td>
+    125:         <td><%= request.data_1980 %></td>
+    126:         <td><%= request.data_1981 %></td>
+    127:         <td><%= request.data_1982 %></td>
+  app/views/search/index.html.erb:124:in `block in _app_views_search_index_html_erb___2783753030070750809_70337304017240'
+  app/views/search/index.html.erb:117:in `_app_views_search_index_html_erb___2783753030070750809_70337304017240'
+
+
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.7ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.7ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (28.6ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:08:24 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+  [1m[35mSearch Load (6.7ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (3.6ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (1.9ms)[0m  SELECT (country),(weo_country_code),(units),(iso),(weo_subject_code),(data_1980),(data_1981),(data_1982) FROM "country_data" WHERE "country_data"."country" = 'United Kingdom' AND "country_data"."subject_descriptor" = 'Employment'
+  Rendered search/index.html.erb within layouts/application (70.7ms)
+Completed 500 Internal Server Error in 76ms (ActiveRecord: 12.2ms)
+
+ActionView::Template::Error (missing attribute: scale):
+    121:         <td><%= request.country %></td>
+    122:         <td><%= request.weo_subject_code %></td>
+    123:         <td><%= request.units %></td>
+    124:         <td><%= request.scale %></td>
+    125:         <td><%= request.data_1980 %></td>
+    126:         <td><%= request.data_1981 %></td>
+    127:         <td><%= request.data_1982 %></td>
+  app/views/search/index.html.erb:124:in `block in _app_views_search_index_html_erb___2783753030070750809_70337304017240'
+  app/views/search/index.html.erb:117:in `_app_views_search_index_html_erb___2783753030070750809_70337304017240'
+
+
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.2ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.2ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.6ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.5ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (41.4ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:08:53 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+  [1m[35mSearch Load (6.5ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (4.5ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (3.7ms)[0m  SELECT (country),(weo_country_code),(scale),(units),(iso),(weo_subject_code),(data_1980),(data_1981),(data_1982) FROM "country_data" WHERE "country_data"."country" = 'United Kingdom' AND "country_data"."subject_descriptor" = 'Employment'
+  Rendered search/index.html.erb within layouts/application (156.4ms)
+Completed 500 Internal Server Error in 192ms (ActiveRecord: 16.9ms)
+
+ActionView::Template::Error (missing attribute: data_1983):
+    125:         <td><%= request.data_1980 %></td>
+    126:         <td><%= request.data_1981 %></td>
+    127:         <td><%= request.data_1982 %></td>
+    128:         <td><%= request.data_1983 %></td>
+    129:         <td><%= request.data_1984 %></td>
+    130:         <td><%= request.data_1985 %></td>
+    131:         <td><%= request.data_1986 %></td>
+  app/views/search/index.html.erb:128:in `block in _app_views_search_index_html_erb__2526000389807804058_70188599681780'
+  app/views/search/index.html.erb:117:in `_app_views_search_index_html_erb__2526000389807804058_70188599681780'
+
+
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (28.9ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (55.5ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:10:21 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+  [1m[35mSearch Load (5.4ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (4.3ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (2.4ms)[0m  SELECT (country),(weo_country_code),(scale),(units),(iso),(weo_subject_code),(data_1980),(data_1981),(data_1982) FROM "country_data" WHERE "country_data"."country" = 'United Kingdom' AND "country_data"."subject_descriptor" = 'Employment'
+  Rendered search/index.html.erb within layouts/application (93.9ms)
+Completed 500 Internal Server Error in 112ms (ActiveRecord: 14.2ms)
+
+ActionView::Template::Error (missing attribute: data_1983):
+    125:         <td><%= request.data_1980 %></td>
+    126:         <td><%= request.data_1981 %></td>
+    127:         <td><%= request.data_1982 %></td>
+    128:         <td><%= request.data_1983 %></td>
+    129:       </tr>
+    130:   <% end %>
+    131:   </tbody>
+  app/views/search/index.html.erb:128:in `block in _app_views_search_index_html_erb__744679061463409366_70251533027580'
+  app/views/search/index.html.erb:117:in `_app_views_search_index_html_erb__744679061463409366_70251533027580'
+
+
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.7ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.9ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.3ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:10:33 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+  [1m[35mSearch Load (3.9ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (3.6ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (2.0ms)[0m  SELECT (country),(weo_country_code),(scale),(units),(iso),(weo_subject_code),(data_1980),(data_1981),(data_1982) FROM "country_data" WHERE "country_data"."country" = 'United Kingdom' AND "country_data"."subject_descriptor" = 'Employment'
+  Rendered search/index.html.erb within layouts/application (88.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 431ms (Views: 406.5ms | ActiveRecord: 12.9ms)
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-05 15:10:34 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:28:04 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+TypeError (no implicit conversion of Fixnum into String):
+  app/controllers/search_controller.rb:40:in `+'
+  app/controllers/search_controller.rb:40:in `index'
+
+
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.6ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (26.6ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (48.8ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:29:14 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+  [1m[35mSearch Load (6.0ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (6.2ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (4.1ms)[0m  SELECT (country),(weo_country_code),(scale),(units),(iso),(weo_subject_code),(data_1980),(data_1981),(data_1982) FROM "country_data" WHERE "country_data"."country" = 'United Kingdom' AND "country_data"."subject_descriptor" = 'Employment'
+  Rendered search/index.html.erb within layouts/application (128.0ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 638ms (Views: 600.7ms | ActiveRecord: 21.2ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-05 15:29:15 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:32:00 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+  [1m[35mSearch Load (5.1ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (3.6ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (2.1ms)[0m  SELECT (country),(weo_country_code),(scale),(units),(iso),(weo_subject_code),(data_1980),(data_1981),(data_1982) FROM "country_data" WHERE "country_data"."country" = 'United Kingdom' AND "country_data"."subject_descriptor" = 'Employment'
+  Rendered search/index.html.erb within layouts/application (93.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 451ms (Views: 425.1ms | ActiveRecord: 14.4ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-05 15:32:01 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Gross+national+savings&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:32:17 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Gross national savings", ""]}}
+  [1m[35mSearch Load (6.3ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (3.9ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (3.1ms)[0m  SELECT (country),(weo_country_code),(scale),(units),(iso),(weo_subject_code),(data_1980),(data_1981),(data_1982) FROM "country_data" WHERE "country_data"."country" = 'United Kingdom' AND "country_data"."subject_descriptor" = 'Gross national savings'
+  Rendered search/index.html.erb within layouts/application (60.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 120ms (Views: 104.2ms | ActiveRecord: 13.6ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Gross+national+savings&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:34:29 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Gross national savings", ""]}}
+  [1m[35mSearch Load (2.4ms)[0m  SELECT (data_1980),(data_1981),(data_1982),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'Gross national savings'  [["country", "United Kingdom"]]
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 4.8ms)
+
+NoMethodError (undefined method `data_' for #<Search:0x007f88a7a42e28>):
+  app/controllers/search_controller.rb:121:in `block (2 levels) in index'
+  app/controllers/search_controller.rb:117:in `block in index'
+  app/controllers/search_controller.rb:107:in `new'
+  app/controllers/search_controller.rb:107:in `index'
+
+
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.8ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (28.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (61.2ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Gross+national+savings&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:35:40 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Gross national savings", ""]}}
+  [1m[35mSearch Load (4.4ms)[0m  SELECT (data_1980),(data_1981),(data_1982),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'Gross national savings'  [["country", "United Kingdom"]]
+Completed 500 Internal Server Error in 83ms (ActiveRecord: 8.0ms)
+
+TypeError (no implicit conversion of Fixnum into String):
+  app/controllers/search_controller.rb:122:in `+'
+  app/controllers/search_controller.rb:122:in `block (2 levels) in index'
+  app/controllers/search_controller.rb:117:in `block in index'
+  app/controllers/search_controller.rb:107:in `new'
+  app/controllers/search_controller.rb:107:in `index'
+
+
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.0ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (26.2ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (45.5ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Gross+national+savings&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:36:10 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Gross national savings", ""]}}
+  [1m[35mSearch Load (4.4ms)[0m  SELECT (data_1980),(data_1981),(data_1982),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'Gross national savings'  [["country", "United Kingdom"]]
+Completed 500 Internal Server Error in 100ms (ActiveRecord: 9.1ms)
+
+NoMethodError (undefined method `temp' for #<Search:0x007fc775a539f0>):
+  app/controllers/search_controller.rb:123:in `block (2 levels) in index'
+  app/controllers/search_controller.rb:117:in `block in index'
+  app/controllers/search_controller.rb:107:in `new'
+  app/controllers/search_controller.rb:107:in `index'
+
+
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.9ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.7ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (47.5ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Gross+national+savings&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:36:37 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Gross national savings", ""]}}
+  [1m[35mSearch Load (2.7ms)[0m  SELECT (data_1980),(data_1981),(data_1982),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'Gross national savings'  [["country", "United Kingdom"]]
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 5.1ms)
+
+NoMethodError (undefined method `temp' for #<Search:0x007fc2afcce970>):
+  app/controllers/search_controller.rb:124:in `block (2 levels) in index'
+  app/controllers/search_controller.rb:117:in `block in index'
+  app/controllers/search_controller.rb:107:in `new'
+  app/controllers/search_controller.rb:107:in `index'
+
+
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.7ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (21.7ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (52.1ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Gross+national+savings&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:37:29 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Gross national savings", ""]}}
+  [1m[35mSearch Load (2.2ms)[0m  SELECT (data_1980),(data_1981),(data_1982),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'Gross national savings'  [["country", "United Kingdom"]]
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 4.4ms)
+
+NoMethodError (undefined method `temp' for #<Search:0x007f343a56ea58>):
+  app/controllers/search_controller.rb:124:in `block (2 levels) in index'
+  app/controllers/search_controller.rb:117:in `block in index'
+  app/controllers/search_controller.rb:107:in `new'
+  app/controllers/search_controller.rb:107:in `index'
+
+
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.5ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Gross+national+savings&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:45:09 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Gross national savings", ""]}}
+  [1m[35mSearch Load (4.0ms)[0m  SELECT (data_1980),(data_1981),(data_1982),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'Gross national savings'  [["country", "United Kingdom"]]
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Gross+national+savings&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:46:46 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Gross national savings", ""]}}
+  [1m[35mSearch Load (2.5ms)[0m  SELECT (data_1980),(data_1981),(data_1982),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'Gross national savings'  [["country", "United Kingdom"]]
+  [1m[36mSearch Load (4.1ms)[0m  [1mSELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC[0m
+  [1m[35mSearch Load (7.1ms)[0m  SELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC
+  [1m[36mSearch Load (4.3ms)[0m  [1mSELECT (country),(weo_country_code),(scale),(units),(iso),(weo_subject_code),(data_1980),(data_1981),(data_1982) FROM "country_data" WHERE "country_data"."country" = 'United Kingdom' AND "country_data"."subject_descriptor" = 'Gross national savings'[0m
+  Rendered search/index.html.erb within layouts/application (120.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 588ms (Views: 520.3ms | ActiveRecord: 22.4ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-05 15:46:47 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Gross+national+savings&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:47:11 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Gross national savings", ""]}}
+  [1m[35mSearch Load (4.0ms)[0m  SELECT (data_1980),(data_1981),(data_1982),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'Gross national savings'  [["country", "United Kingdom"]]
+Completed 500 Internal Server Error in 75ms (ActiveRecord: 7.3ms)
+
+NoMethodError (undefined method `data_' for #<Search:0x007f952154bd30>):
+  app/controllers/search_controller.rb:124:in `block (2 levels) in index'
+  app/controllers/search_controller.rb:117:in `block in index'
+  app/controllers/search_controller.rb:107:in `new'
+  app/controllers/search_controller.rb:107:in `index'
+
+
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.6ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.1ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nabil/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (45.8ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Gross+national+savings&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:47:33 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", ""]}, "subject_list"=>{"subject_name"=>["Gross national savings", ""]}}
+  [1m[35mSearch Load (4.8ms)[0m  SELECT (data_1980),(data_1981),(data_1982),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'Gross national savings'  [["country", "United Kingdom"]]
+  [1m[36mSearch Load (7.0ms)[0m  [1mSELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC[0m
+  [1m[35mSearch Load (6.9ms)[0m  SELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC
+  [1m[36mSearch Load (2.7ms)[0m  [1mSELECT (country),(weo_country_code),(scale),(units),(iso),(weo_subject_code),(data_1980),(data_1981),(data_1982) FROM "country_data" WHERE "country_data"."country" = 'United Kingdom' AND "country_data"."subject_descriptor" = 'Gross national savings'[0m
+  Rendered search/index.html.erb within layouts/application (111.8ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 617ms (Views: 529.6ms | ActiveRecord: 26.7ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-05 15:47:34 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=United+States&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=General+government+revenue&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:49:30 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", "United States", ""]}, "subject_list"=>{"subject_name"=>["General government revenue", ""]}}
+  [1m[36mSearch Load (2.0ms)[0m  [1mSELECT (data_1980),(data_1981),(data_1982),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'General government revenue'[0m  [["country", "United Kingdom"]]
+  [1m[35mSearch Load (2.4ms)[0m  SELECT (data_1980),(data_1981),(data_1982),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'General government revenue'  [["country", "United States"]]
+  [1m[36mSearch Load (5.3ms)[0m  [1mSELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC[0m
+  [1m[35mSearch Load (3.7ms)[0m  SELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC
+  [1m[36mSearch Load (2.4ms)[0m  [1mSELECT (country),(weo_country_code),(scale),(units),(iso),(weo_subject_code),(data_1980),(data_1981),(data_1982) FROM "country_data" WHERE "country_data"."country" IN ('United Kingdom', 'United States') AND "country_data"."subject_descriptor" = 'General government revenue'[0m
+  Rendered search/index.html.erb within layouts/application (53.4ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 152ms (Views: 109.9ms | ActiveRecord: 19.5ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1983&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=United+States&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:50:04 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1983", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", "United States", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+  [1m[36mSearch Load (4.0ms)[0m  [1mSELECT (data_1980),(data_1981),(data_1982),(data_1983),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'Employment'[0m  [["country", "United Kingdom"]]
+  [1m[35mSearch Load (3.6ms)[0m  SELECT (data_1980),(data_1981),(data_1982),(data_1983),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'Employment'  [["country", "United States"]]
+  [1m[36mSearch Load (6.0ms)[0m  [1mSELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC[0m
+  [1m[35mSearch Load (3.6ms)[0m  SELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC
+  [1m[36mSearch Load (2.6ms)[0m  [1mSELECT (country),(weo_country_code),(scale),(units),(iso),(weo_subject_code),(data_1980),(data_1981),(data_1982),(data_1983) FROM "country_data" WHERE "country_data"."country" IN ('United Kingdom', 'United States') AND "country_data"."subject_descriptor" = 'Employment'[0m
+  Rendered search/index.html.erb within layouts/application (62.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 123ms (Views: 97.9ms | ActiveRecord: 20.2ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=United+States&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=General+government+revenue&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:54:08 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", "United States", ""]}, "subject_list"=>{"subject_name"=>["General government revenue", ""]}}
+  [1m[35mSearch Load (2.3ms)[0m  SELECT (data_1980),(data_1981),(data_1982),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'General government revenue'  [["country", "United Kingdom"]]
+  [1m[36mSearch Load (2.0ms)[0m  [1mSELECT (data_1980),(data_1981),(data_1982),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'General government revenue'[0m  [["country", "United States"]]
+  [1m[35mSearch Load (4.0ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (3.7ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (2.6ms)[0m  SELECT (country),(weo_country_code),(scale),(units),(iso),(weo_subject_code),(data_1980),(data_1981),(data_1982) FROM "country_data" WHERE "country_data"."country" IN ('United Kingdom', 'United States') AND "country_data"."subject_descriptor" = 'General government revenue'
+  Rendered search/index.html.erb within layouts/application (65.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 459ms (Views: 399.8ms | ActiveRecord: 18.6ms)
+
+
+Started GET "/assets/animate.self-1790186c5592c03b0a7e0605fd6c4911ff9fa9f7b4440b672b187dc2e6947c68.css?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/font-awesome.min.self-6bb04114c00dc0f2115b700bce976c1d368c4c641247d3f2bd520b3067efef45.css?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/nivo-lightbox-theme.self-a2b1f1bb389adddc404451a21b3e5f251397a52d960ef004906bc6488b0ec592.css?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/nivo-lightbox.self-52aab977e80226214885565b92852304108894eda603030eed75cf777374397d.css?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/style.self-93d082aa0d661ccb7ac697f15f46cbfb2a86121b585e8ac1148980cab23280fb.css?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/jquery-2.1.3.min.self-167adc1826a31cef2040f73c4d3996900974f3b4578f72e2c1bfb814d66ca2fb.js?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/jquery.hoverdir.self-b49105324ca3b5f200a474e450a6b41e38a7361e830ffa8b7e1c75247a25d3f2.js?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/modernizr.custom.97074.self-0d070ecc37dfe86be19fee5af7f76920eef8fd52d377a63e3b5b35cfad7ded55.js?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/nivo-lightbox.min.self-3a9fdbe21fb147a924269fa15a70ec130e9477c99482698318324d2e22e18654.js?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/owl.carousel.self-356da1275c02184d8e20410d0de1057d9c2daccadc1be86177e9ac7c6197046a.js?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/script.self-e9c412cda74c067c40c9dc4d54bfbc1654236fdbb5351993ef4b4a40ef5e9e94.js?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/site.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/timer.self-3abc2365564068a9bde605163f5af9ccdfdc237463c31993f870e0bf9cda912f.js?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/wow.min.self-1e66b357a9296a4caa94b71b7d2eabaf38b2f956755b71bb59a315f5b38881da.js?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/highcharts/highcharts.self-4923f9ed2665d141bf958caf9ad472e43583563e4ce0ad4ca0bed37cc4472ba0.js?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-05 15:54:09 +0700
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=1982&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=United+States&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:54:36 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"1982", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", "United States", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+  [1m[35mSearch Load (4.6ms)[0m  SELECT (data_1980),(data_1981),(data_1982),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'Employment'  [["country", "United Kingdom"]]
+  [1m[36mSearch Load (2.5ms)[0m  [1mSELECT (data_1980),(data_1981),(data_1982),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'Employment'[0m  [["country", "United States"]]
+  [1m[35mSearch Load (5.2ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (3.8ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (4.7ms)[0m  SELECT (country),(weo_country_code),(scale),(units),(iso),(weo_subject_code),(data_1980),(data_1981),(data_1982) FROM "country_data" WHERE "country_data"."country" IN ('United Kingdom', 'United States') AND "country_data"."subject_descriptor" = 'Employment'
+  Rendered search/index.html.erb within layouts/application (60.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 132ms (Views: 105.7ms | ActiveRecord: 21.2ms)
+
+
+Started GET "/search/index?utf8=%E2%9C%93&year1=1980&year2=2010&commit=Search&country_list%5Bcountry_name%5D%5B%5D=United+Kingdom&country_list%5Bcountry_name%5D%5B%5D=United+States&country_list%5Bcountry_name%5D%5B%5D=&subject_list%5Bsubject_name%5D%5B%5D=Employment&subject_list%5Bsubject_name%5D%5B%5D=" for 127.0.0.1 at 2016-04-05 15:57:22 +0700
+Processing by SearchController#index as HTML
+  Parameters: {"utf8"=>"✓", "year1"=>"1980", "year2"=>"2010", "commit"=>"Search", "country_list"=>{"country_name"=>["United Kingdom", "United States", ""]}, "subject_list"=>{"subject_name"=>["Employment", ""]}}
+  [1m[35mSearch Load (3.2ms)[0m  SELECT (data_1980),(data_1981),(data_1982),(data_1983),(data_1984),(data_1985),(data_1986),(data_1987),(data_1988),(data_1989),(data_1990),(data_1991),(data_1992),(data_1993),(data_1994),(data_1995),(data_1996),(data_1997),(data_1998),(data_1999),(data_2000),(data_2001),(data_2002),(data_2003),(data_2004),(data_2005),(data_2006),(data_2007),(data_2008),(data_2009),(data_2010),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'Employment'  [["country", "United Kingdom"]]
+  [1m[36mSearch Load (2.1ms)[0m  [1mSELECT (data_1980),(data_1981),(data_1982),(data_1983),(data_1984),(data_1985),(data_1986),(data_1987),(data_1988),(data_1989),(data_1990),(data_1991),(data_1992),(data_1993),(data_1994),(data_1995),(data_1996),(data_1997),(data_1998),(data_1999),(data_2000),(data_2001),(data_2002),(data_2003),(data_2004),(data_2005),(data_2006),(data_2007),(data_2008),(data_2009),(data_2010),(scale) FROM "country_data" WHERE "country_data"."country" = $1 AND "country_data"."subject_descriptor" = 'Employment'[0m  [["country", "United States"]]
+  [1m[35mSearch Load (4.1ms)[0m  SELECT DISTINCT(country) FROM "country_data"  ORDER BY country ASC
+  [1m[36mSearch Load (3.5ms)[0m  [1mSELECT DISTINCT(subject_descriptor) FROM "country_data"  ORDER BY subject_descriptor ASC[0m
+  [1m[35mSearch Load (2.7ms)[0m  SELECT (country),(weo_country_code),(scale),(units),(iso),(weo_subject_code),(data_1980),(data_1981),(data_1982),(data_1983),(data_1984),(data_1985),(data_1986),(data_1987),(data_1988),(data_1989),(data_1990),(data_1991),(data_1992),(data_1993),(data_1994),(data_1995),(data_1996),(data_1997),(data_1998),(data_1999),(data_2000),(data_2001),(data_2002),(data_2003),(data_2004),(data_2005),(data_2006),(data_2007),(data_2008),(data_2009),(data_2010) FROM "country_data" WHERE "country_data"."country" IN ('United Kingdom', 'United States') AND "country_data"."subject_descriptor" = 'Employment'
+  Rendered search/index.html.erb within layouts/application (64.3ms)
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 122ms (Views: 100.1ms | ActiveRecord: 16.5ms)
