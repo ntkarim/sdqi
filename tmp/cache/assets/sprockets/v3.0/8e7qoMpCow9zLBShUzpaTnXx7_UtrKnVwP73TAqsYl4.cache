@@ -1,0 +1,5 @@
+I"L(function() {
+  $(".slider").slider().slider("float");
+
+}).call(this);
+:ET

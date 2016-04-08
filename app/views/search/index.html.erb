@@ -3,6 +3,7 @@
 
 
 <style>
+
   table {
     border-collapse: collapse;
     width: 100%;
@@ -31,7 +32,7 @@
     padding: 0;
     width: 25%;
     background-color: #f1f1f1;
-    position: fixed;
+    position: relative;
     height: 84%;
     overflow: auto;
 
@@ -53,43 +54,185 @@
     background-color: #555;
     color: white;
   }
+  .n4columns {
+    -webkit-column-count: 6; /* Chrome, Safari, Opera */
+    -moz-column-count: 6; /* Firefox */
+    column-count: 6;
+  }
+  .n2columns {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+  }
 </style>
+<style>
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  input {
+    border:solid 1px #ccc;
+    border-radius: 5px;
+    padding:7px 14px;
+    margin-bottom:10px
+  }
+</style>
+<style>
+  body {
+    margin: 0;
+  }
+  .mouseAtMiddle {
+    padding-top: 20px;
+    padding-right: 0%;
+    padding-bottom: 50px;
+    padding-left: 40%;
+  }
+
+</style>
+  <script>
+    $(function() {
+
+      $(".slider")
+
+          .slider({
+            min: 1980,
+            max: 2015,
+            range: true,
+            values: [1990, 2000],
+            step: 1,
+            slide: function( event, ui ) {
+              $( "#amount" ).val(ui.values[ 0 ] + "," + ui.values[ 1 ] );
+            }
+
+          })
+
+          .slider("pips", {
+            rest: "label",
+            step: 5
+          })
+          .slider("float");
+
+      $( "#amount" ).val($( ".slider" ).slider( "values", 0 )+","+$( ".slider" ).slider( "values", 1 ));
+
+    });
+
+
+  </script>
+
+
 </head>
 <body>
+
+
 
 
 <div class="field">
   <%= form_tag(search_index_path, method: "get") do %>
 
-      <%= label_tag(:year1, "From Year :") %>
-      <%= select_tag :year1, options_for_select(@years)%>
-      <%= label_tag(:year2, "To Year :") %>
-      <%= select_tag :year2, options_for_select(@years)%>
-      <%= submit_tag("Search") %>
+      <div class="container">
+        <h2>Accordion Example</h2>
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Select Country</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse ">
+              <div class="panel-body">
+                  <div class="n4columns">
+                <%= collection_check_boxes(:country_list,:country_name,Search.select("DISTINCT(country)").order('country ASC'),:country,:country) do |cb| %>
+                    <li class="scroll"><a><%= cb.label {cb.check_box + cb.text} %></a></li>
+                <% end %>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Select subjects</a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div class="n2columns">
+                <%= collection_check_boxes(:subject_list,:subject_name,Search.select("DISTINCT(subject_descriptor)").order('subject_descriptor ASC'),:subject_descriptor,:subject_descriptor) do |cb| %>
+                    <li class="scroll"><a><%= cb.label {cb.check_box + cb.text} %></a></li>
+                <% end %>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Select year range</a>
+              </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body">
 
-      <ul class ="scroll">
-        <lh>Select Country</lh>
-        <%= collection_check_boxes(:country_list,:country_name,Search.select("DISTINCT(country)").order('country ASC'),:country,:country) do |cb| %>
-            <li class="scroll"><a><%= cb.label {cb.check_box + cb.text} %></a></li>
-        <% end %>
-        <lh>Select Subjects</lh>
-        <%= collection_check_boxes(:subject_list,:subject_name,Search.select("DISTINCT(subject_descriptor)").order('subject_descriptor ASC'),:subject_descriptor,:subject_descriptor) do |cb| %>
-            <li class="scroll"><a><%= cb.label {cb.check_box + cb.text} %></a></li>
-        <% end %>
-      </ul>
+                <%= hidden_field_tag(:amount )%>
+                <div class="slider"></div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+<div class="mouseAtMiddle">
+
+      <button class="button" style="vertical-align:middle"><span> Search </span></button>
+
+</div>
 
 
   <% end %>
 </div>
 
-
-<div style="margin-left:25%;padding:1px 16px;height:500px;">
-
-
-
-
+<div class = "container">
 
 <table>
+
   <thead>
   <tr>
     <th>Country code</th>
@@ -97,34 +240,36 @@
     <th>Country</th>
     <th>WEO Subject code</th>
     <th>Unit</th>
-    <th>Scale</th>
-    <th>Data 1980</th>
-    <th>Data 1981</th>
-    <th>Data 1982</th>
-    <th>Data 1983</th>
-    <th>Data 1984</th>
-    <th>Data 1985</th>
-    <th>Data 1986</th>
-    <th>Data 1987</th>
-    <th>Data 1988</th>
-    <th>Data 1989</th>
-    <th>Data 1990</th>
+    <% startyear = @startyear.to_i%>
+    <% finalyear = @finalyear.to_i%>
+    <% while startyear <= finalyear do %>
+
+        <th>Data <%= "#{startyear}" %> </th>
+       <% startyear = startyear + 1 %>
+
+        <% end %>
+
     <th colspan="3"></th>
   </tr>
   </thead>
 
   <tbody>
-  <% @displaysyears.each do |request| %>
+  <% @displays.each do |request| %>
       <tr>
         <td><%= request.weo_country_code %></td>
         <td><%= request.iso %></td>
         <td><%= request.country %></td>
         <td><%= request.weo_subject_code %></td>
         <td><%= request.units %></td>
-        <td><%= request.scale %></td>
-        <td><%= request.data_1980 %></td>
-        <td><%= request.data_1981 %></td>
-        <td><%= request.data_1982 %></td>
+
+        <% startyear = @startyear.to_i%>
+        <% finalyear = @finalyear.to_i%>
+        <% while startyear <= finalyear do %>
+           <td><%= request.send("data_" + startyear.to_s) %></td>
+            <% startyear = startyear + 1 %>
+
+        <% end %>
+
       </tr>
   <% end %>
   </tbody>
@@ -132,12 +277,22 @@
 
   <% if (@chart != nil) %>
       <div class="intro-description">
-        <h2>Column Chart View</h2>
+        <h2>Scatter Plot View</h2>
         <%= high_chart("some_id", @chart) %>
+        <br/><br/>
+        <h2>Area Chart View</h2>
+        <%= high_chart("some_id2", @chart2) %>
+        <br/><br/>
+        <h2>Combined Bar & Pie Chart View</h2>
+        <%= high_chart("some_id3", @chart3) %>
         <br/><br/>
       </div>
   <% end %>
 
 </div>
+</div>
 </body>
+
+
+
 </html>

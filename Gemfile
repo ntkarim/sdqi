@@ -12,6 +12,13 @@ gem 'devise'
 
 #Bower gem
 gem 'bower-rails' ,'~> 0.10.0'
+
+#Simplecov
+gem 'simplecov', :require => false, :group => :test
+
+#Simplecov with Codacy
+gem 'codacy-coverage', :require => false
+
 # Use existing database
 gem 'yaml_db'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

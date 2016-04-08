@@ -1,0 +1,17 @@
+{
+  "name": "BowerTest",
+  "authors": [
+    "Teera Kritpranam <st117895@ait.asia>"
+  ],
+  "description": "testingBower",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "jQuery-ui-Slider-Pips": "jquery-ui-slider-pips#^1.11.3"
+  }
+
+}
