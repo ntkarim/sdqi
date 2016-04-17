@@ -2,170 +2,14 @@
 <head>
 
 
-<style>
-
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-
-  th, td {
-    text-align: left;
-    padding: 8px;
-  }
-
-  tr:nth-child(even){background-color: #f2f2f2}
-
-  th {
-    background-color: #4CAF50;
-    color: white;
-  }
-</style>
-<style>
-  body {
-    margin: 0;
-  }
-
-  ul.scroll {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: #f1f1f1;
-    position: relative;
-    height: 84%;
-    overflow: auto;
-
-  }
-
-  li.scroll a {
-    display: block;
-    color: #000;
-    padding: 8px 0 8px 16px;
-    text-decoration: none;
-  }
-
-  li.scroll a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
-
-  li.scroll a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-  }
-  .n4columns {
-    -webkit-column-count: 6; /* Chrome, Safari, Opera */
-    -moz-column-count: 6; /* Firefox */
-    column-count: 6;
-  }
-  .n2columns {
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-  }
-</style>
-<style>
-  .button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #f4511e;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-  }
-
-  .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-
-  .button span:after {
-    content: '»';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-
-  .button:hover span {
-    padding-right: 25px;
-  }
-
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-  input {
-    border:solid 1px #ccc;
-    border-radius: 5px;
-    padding:7px 14px;
-    margin-bottom:10px
-  }
-</style>
-<style>
-  body {
-    margin: 0;
-  }
-  .mouseAtMiddle {
-    padding-top: 20px;
-    padding-right: 0%;
-    padding-bottom: 50px;
-    padding-left: 40%;
-  }
-
-</style>
-  <script>
-    $(function() {
-
-      $(".slider")
-
-          .slider({
-            min: 1980,
-            max: 2015,
-            range: true,
-            values: [1990, 2000],
-            step: 1,
-            slide: function( event, ui ) {
-              $( "#amount" ).val(ui.values[ 0 ] + "," + ui.values[ 1 ] );
-            }
-
-          })
-
-          .slider("pips", {
-            rest: "label",
-            step: 5
-          })
-          .slider("float");
-
-      $( "#amount" ).val($( ".slider" ).slider( "values", 0 )+","+$( ".slider" ).slider( "values", 1 ));
-
-    });
-
-
-  </script>
-
-
 </head>
 <body>
-
-
-
 
 <div class="field">
   <%= form_tag(search_index_path, method: "get") do %>
 
       <div class="container">
-        <h2>Accordion Example</h2>
+        <h2>Search filters</h2>
         <div class="panel-group" id="accordion">
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -230,51 +74,6 @@
 </div>
 
 <div class = "container">
-
-<table>
-
-  <thead>
-  <tr>
-    <th>Country code</th>
-    <th>ISO</th>
-    <th>Country</th>
-    <th>WEO Subject code</th>
-    <th>Unit</th>
-    <% startyear = @startyear.to_i%>
-    <% finalyear = @finalyear.to_i%>
-    <% while startyear <= finalyear do %>
-
-        <th>Data <%= "#{startyear}" %> </th>
-       <% startyear = startyear + 1 %>
-
-        <% end %>
-
-    <th colspan="3"></th>
-  </tr>
-  </thead>
-
-  <tbody>
-  <% @displays.each do |request| %>
-      <tr>
-        <td><%= request.weo_country_code %></td>
-        <td><%= request.iso %></td>
-        <td><%= request.country %></td>
-        <td><%= request.weo_subject_code %></td>
-        <td><%= request.units %></td>
-
-        <% startyear = @startyear.to_i%>
-        <% finalyear = @finalyear.to_i%>
-        <% while startyear <= finalyear do %>
-           <td><%= request.send("data_" + startyear.to_s) %></td>
-            <% startyear = startyear + 1 %>
-
-        <% end %>
-
-      </tr>
-  <% end %>
-  </tbody>
-</table>
-
   <% if (@chart != nil) %>
       <div class="intro-description">
         <h2>Scatter Plot View</h2>
@@ -285,6 +84,7 @@
         <br/><br/>
         <h2>Combined Bar & Pie Chart View</h2>
         <%= high_chart("some_id3", @chart3) %>
+        <%= high_chart("some_id4", @chart4) %>
         <br/><br/>
       </div>
   <% end %>

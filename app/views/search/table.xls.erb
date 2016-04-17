@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:o="urn:schemas-microsoft-com:office:office"
+          xmlns:x="urn:schemas-microsoft-com:office:excel"
+          xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:html="http://www.w3.org/TR/REC-html40">
+  <Worksheet ss:Name="Sheet1">
+    <Table>
+      <Row>
+        <Cell><Data ss:Type="String">Country</Data></Cell>
+        <Cell><Data ss:Type="String">WEO Subject</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <% startyear = @startyear.to_i%>
+        <% finalyear = @finalyear.to_i%>
+        <% while startyear <= finalyear do %>
+            <Cell><Data ss:Type="String">Data <%= "#{startyear}"%></Data></Cell>
+            <% startyear = startyear + 1 %>
+        <% end %>
+      </Row>
+      <% @displays.each do |display| %>
+          <Row>
+            <Cell><Data ss:Type="String"><%= display.country %></Data></Cell>
+            <Cell><Data ss:Type="String"><%= display.subject_descriptor %></Data></Cell>
+            <Cell><Data ss:Type="String"><%= display.units %></Data></Cell>
+            <% startyear = @startyear.to_i%>
+            <% finalyear = @finalyear.to_i%>
+            <% while startyear <= finalyear do %>
+                <Cell><Data ss:Type="String"><%= display.send("data_" + startyear.to_s)%></Data></Cell>
+                <% startyear = startyear + 1 %>
+            <% end %>
+          </Row>
+      <% end %>
+    </Table>
+  </Worksheet>
+</Workbook>

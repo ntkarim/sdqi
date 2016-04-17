@@ -1,0 +1,136 @@
+
+<html>
+<head>
+
+</head>
+<body>
+
+
+
+
+<div class="field">
+
+  <%= form_tag(table_search_index_path, method: "get") do %>
+
+      <div class="container">
+        <h2>Search filters</h2>
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Select Country</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse ">
+              <div class="panel-body">
+                <div class="n4columns">
+                  <%= collection_check_boxes(:country_list,:country_name,Search.select("DISTINCT(country)").order('country ASC'),:country,:country) do |cb| %>
+                      <li class="scroll"><a><%= cb.label {cb.check_box + cb.text} %></a></li>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Select subjects</a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div class="n2columns">
+                  <%= collection_check_boxes(:subject_list,:subject_name,Search.select("DISTINCT(subject_descriptor)").order('subject_descriptor ASC'),:subject_descriptor,:subject_descriptor) do |cb| %>
+                      <li class="scroll"><a><%= cb.label {cb.check_box + cb.text} %></a></li>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Select year range</a>
+              </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body">
+
+                <%= hidden_field_tag(:amount )%>
+                <div class="slider"></div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="mouseAtMiddle">
+
+        <button class="button" style="vertical-align:middle"><span> Search </span></button>
+
+      </div>
+
+
+  <% end %>
+</div>
+
+
+<% unless params[:amount].nil? %>
+<div class = "container">
+
+  <table>
+
+    <thead>
+    <tr>
+      <th>Country</th>
+      <th>WEO Subject descriptor</th>
+      <th>Unit</th>
+      <% startyear = @startyear.to_i%>
+      <% finalyear = @finalyear.to_i%>
+      <% while startyear <= finalyear do %>
+
+          <th>Data <%= "#{startyear}" %> </th>
+          <% startyear = startyear + 1 %>
+
+      <% end %>
+
+      <th colspan="3"></th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <% @displays.each do |request| %>
+        <tr>
+          <td><%= request.country %></td>
+          <td><%= request.subject_descriptor %></td>
+          <td><%= request.units %></td>
+
+          <% startyear = @startyear.to_i%>
+          <% finalyear = @finalyear.to_i%>
+          <% while startyear <= finalyear do %>
+              <td><%= request.send("data_" + startyear.to_s) %></td>
+              <% startyear = startyear + 1 %>
+
+          <% end %>
+
+        </tr>
+    <% end %>
+    </tbody>
+  </table>
+
+
+</div>
+
+<div class="container">
+
+  <%= link_to '<button class="button2"><span> Export in excel </span></button>'.html_safe, table_search_index_path(format: "xls", params: params) %>
+</div>
+
+    <% end %>
+</body>
+
+
+</html>
