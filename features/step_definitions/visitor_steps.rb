@@ -29,3 +29,8 @@ end
 Then(/^I should see the user logged in$/) do
   visit '/'
 end
+
+Then(/^I do not see export$/) do
+  expect(page).to have_no_button('Export in excel')
+end
+

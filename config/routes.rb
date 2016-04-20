@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
   get 'site/index'
+  get 'site/about'
 
   get 'search/index'
 

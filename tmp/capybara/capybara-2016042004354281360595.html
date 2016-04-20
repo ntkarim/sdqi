@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SDQI Project Team 2</title>
+  <link rel="stylesheet" media="all" href="/assets/application-b9adde74868c6f35c428b2ef2131f7f4fb61be45b01b83370950d8c501d57847.css" data-turbolinks-track="true" />
+  <script src="/assets/application-3d00452fbf31eb5e30a01d711d6efacf7e068340a4324f9ae175d2e2ea8d6335.js" data-turbolinks-track="true"></script>
+  
+</head>
+<body>
+<!-- site-navigation start -->
+<nav id="mainNavigation" class="navbar navbar-dafault main-navigation" role="navigation">
+  <div class="container">
+
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <!-- navbar logo -->
+      <div class="navbar-brand">
+        <span class="sr-only">Avada Pro Agency</span>
+        <a class="img-responsive center-block" alt="logo" href="http://www.example.com/"><img src="/assets/images/main_logo.png" alt="Main logo" /></a>
+      </div>
+      <!-- navbar logo -->
+
+    </div><!-- /.navbar-header -->
+
+    <!-- nav links -->
+    <div class="collapse navbar-collapse" id="main-nav-collapse">
+      <ul class="nav navbar-nav navbar-right text-uppercase">
+        <li>
+          <a href="http://www.example.com/">Home</a>
+        </li>
+
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Statistical View</span></a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="/search/table">View Data in Tables</a>
+            </li>
+            <li>
+              <a href="/search/index">View Data in Charts</a>
+            </li>
+          </ul>  <!-- end of /.dropdown-menu -->
+        </li> <!-- end of /.dropdown -->
+        
+            <li>
+            <li><a rel="nofollow" data-method="delete" href="/users/sign_out">Sign out</a></li>
+            </li>
+
+      </ul>
+    </div><!-- nav links -->
+
+  </div><!-- /.container -->
+</nav>
+<html>
+<head>
+
+
+</head>
+<body>
+
+<div class="field">
+  <form action="/search/index" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+
+      <div class="container">
+        <h2>Search filters</h2>
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Select Country</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse ">
+              <div class="panel-body">
+                  <div class="n4columns">
+                <input type="hidden" name="country_list[country_name][]" value="" />                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Select subjects</a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div class="n2columns">
+                <input type="hidden" name="subject_list[subject_name][]" value="" />                </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Select year range</a>
+              </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body">
+
+                <input type="hidden" name="amount" id="amount" />
+                <div class="slider"></div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+<div class="mouseAtMiddle">
+
+      <button class="button" style="vertical-align:middle"><span> Search </span></button>
+
+</div>
+
+
+</form></div>
+
+<div class = "container">
+      <div class="intro-description">
+        <h2>Scatter Plot View</h2>
+                        <script type="text/javascript">
+        (function() {
+
+          var onload = window.onload;
+          window.onload = function(){
+            if (typeof onload == "function") onload();
+                    var options = { "title": { "text": "\"Current account balance\" Statistics For \"Afghanistan\" from 1990-2000" },"legend": { "align": "right","verticalAlign": "top","y": 75,"x": -50,"layout": "vertical" },"xAxis": {  },"yAxis": [ { "title": { "text": "Current account balance in ","margin": 70 } } ],"tooltip": { "enabled": true },"credits": { "enabled": false },"plotOptions": { "scatter": { "marker": { "radius": 5,"states": { "hover": { "enabled": true,"lineColor": "rgb(100,100,100)" } } },"tooltip": { "headerFormat": "\u003cb\u003e{series.name}\u003c/b\u003e\u003cbr\u003e","pointFormat": "Year- {point.x}, {point.y}" } } },"chart": { "defaultSeriesType": "scatter","renderTo": "some_id" },"subtitle": {  },"series": [{ "name": "Afghanistan-Current account balance","yAxis": 0,"data": [  ],"color": "#7fe2ff","marker": { "symbol": "circle" } }] };
+        
+        window.chart_some_id = new Highcharts.Chart(options);
+
+          };
+                })()
+        </script>
+
+<div id="some_id"></div>
+        <br/><br/>
+        <h2>Area Chart View</h2>
+                        <script type="text/javascript">
+        (function() {
+
+          var onload = window.onload;
+          window.onload = function(){
+            if (typeof onload == "function") onload();
+                    var options = { "title": { "text": "\"Current account balance\" Statistics For \"Afghanistan\" from 1990-2000" },"legend": { "align": "right","verticalAlign": "top","y": 75,"x": -50,"layout": "vertical" },"xAxis": {  },"yAxis": [ { "title": { "text": "Current account balance in ","margin": 70 } } ],"tooltip": { "enabled": true },"credits": { "enabled": false },"plotOptions": { "area": { "stacking": "normal","lineColor": "#666666","lineWidth": 1,"marker": { "lineWidth": 1,"lineColor": "#666666" },"fillOpacity": 0.5,"tooltip": { "shared": true,"headerFormat": "\u003cb\u003e{series.name}\u003c/b\u003e\u003cbr\u003e","pointFormat": "Year- {point.x}, {point.y}" } } },"chart": { "defaultSeriesType": "area","renderTo": "some_id2" },"subtitle": {  },"series": [{ "name": "Afghanistan-Current account balance","yAxis": 0,"data": [  ] }] };
+        
+        window.chart_some_id2 = new Highcharts.Chart(options);
+
+          };
+                })()
+        </script>
+
+<div id="some_id2"></div>
+        <br/><br/>
+        <h2>Combined Bar & Pie Chart View</h2>
+                        <script type="text/javascript">
+        (function() {
+
+          var onload = window.onload;
+          window.onload = function(){
+            if (typeof onload == "function") onload();
+                    var options = { "title": { "text": "\"Current account balance\" Statistics For \"Afghanistan\" from 1990-2000" },"legend": { "align": "right","verticalAlign": "top","y": 75,"x": -50,"layout": "vertical" },"xAxis": {  },"yAxis": [ { "title": { "text": "Current account balance in ","margin": 20 } } ],"tooltip": { "enabled": true },"credits": { "enabled": false },"plotOptions": { "line": { "plotLines": [ { "width": 1,"color": "#808080" } ],"tooltip": { "shared": true,"headerFormat": "\u003cb\u003e{series.name}\u003c/b\u003e\u003cbr\u003e","pointFormat": "Year- {point.x}, {point.y}" } } },"chart": { "defaultSeriesType": "line","renderTo": "some_id3","width": 1220 },"subtitle": {  },"series": [{ "name": "Afghanistan-Current account balance","yAxis": 0,"data": [  ],"type": "column","height": 300 }] };
+        
+        window.chart_some_id3 = new Highcharts.Chart(options);
+
+          };
+                })()
+        </script>
+
+<div id="some_id3"></div>
+                        <script type="text/javascript">
+        (function() {
+
+          var onload = window.onload;
+          window.onload = function(){
+            if (typeof onload == "function") onload();
+                    var options = { "title": { "text": null },"legend": { "layout": "vertical","style": {  } },"xAxis": {  },"yAxis": { "title": { "text": null },"labels": {  } },"tooltip": { "enabled": true },"credits": { "enabled": false },"plotOptions": { "areaspline": {  } },"chart": { "defaultSeriesType": "pie","renderTo": "some_id4" },"subtitle": {  },"series": [{ "name": "Total Summation","size": 200,"center": [ 300,150 ],"data": [ { "name": "Afghanistan","y": null } ] }] };
+        
+        window.chart_some_id4 = new Highcharts.Chart(options);
+
+          };
+                })()
+        </script>
+
+<div id="some_id4"></div>
+        <br/><br/>
+      </div>
+
+</div>
+</div>
+</body>
+
+
+
+</html>
+
+</body>
+</html>
