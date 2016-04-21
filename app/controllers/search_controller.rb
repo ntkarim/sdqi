@@ -43,7 +43,6 @@ class SearchController < ApplicationController
     @startyear = year1
     @finalyear = year2
 
-    puts year2.to_i - year1.to_i + 1
     year0 = 0
 yearquery = ""
     for year0 in 0..yearcount
@@ -55,24 +54,20 @@ yearquery = ""
       end
 
     end
-puts yearquery  # year query is a query statement
 
 
     @chosenYears = Array.new
     firstYear = params[:year1]
     firstYearinInt = firstYear.to_i
     year0 = 0
-    puts "2222222222"
-    puts yearcount
-    puts year0
+
     while(year0<=yearcount)
       @chosenYears.insert(year0,firstYearinInt)
       firstYearinInt = firstYearinInt + 1
-      puts @chosenYears[year0]
       year0 = year0 + 1
 
     end
-    puts "2222222222"
+
     ####################################### End of Year list Section ################################################
 
 
@@ -96,8 +91,7 @@ puts yearquery  # year query is a query statement
         subvalues.insert(i, subjectkey.first[i])
         i = i+1
       end
-      puts "subvalue"
-      puts subvalues
+
       #//////////////// Added for multiple subjects ////////////////////////////////
 
 
@@ -109,7 +103,7 @@ puts yearquery  # year query is a query statement
 
 
         @displays = @displays.select("(country),(weo_country_code),(units),(iso),(weo_subject_code),"+yearquery)  #Query testing
-      #  puts @displaysyears.first
+
       else
 
 

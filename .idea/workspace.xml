@@ -2,84 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b7030a7-dd93-4169-a76e-b3f330269935" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Multiple subjects.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/pids/server.pid" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-ImTbNhJuMM8Jjo5rtODcZr9F-GMeHrTNhurGGgLE7U.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-ImTbNhJuMM8Jjo5rtODcZr9F-GMeHrTNhurGGgLE7U.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-g3jTruWZ4O9-3Iupkfs82tbposULvmJa9ljhIBMLRU.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-g3jTruWZ4O9-3Iupkfs82tbposULvmJa9ljhIBMLRU.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/11bMWmPIwTvtKvsUXXkqNjdwmHGkoTeFRk4j7Q6xBfQ.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/11bMWmPIwTvtKvsUXXkqNjdwmHGkoTeFRk4j7Q6xBfQ.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1qXRttTK8QUoR44S5cuCJXGXph_Y2o6RtudxyA7UgJY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1qXRttTK8QUoR44S5cuCJXGXph_Y2o6RtudxyA7UgJY.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1y9OYIwPhjNHHNZWVcrLpc5sBkMcNEMgSQU2X2QG74I.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1y9OYIwPhjNHHNZWVcrLpc5sBkMcNEMgSQU2X2QG74I.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2HMOQ1iM_ZWkMTWiFkY_vHa1siaRiIAtrvmYFveOgCE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2HMOQ1iM_ZWkMTWiFkY_vHa1siaRiIAtrvmYFveOgCE.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2PUIjo5Y8wIVytMOYdl7hL1jl8kLL6exbrl6751ziq4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2PUIjo5Y8wIVytMOYdl7hL1jl8kLL6exbrl6751ziq4.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2PeklgajK_d-Xy1YxbIPN_nfR129yEVdatbwyoycGh4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2PeklgajK_d-Xy1YxbIPN_nfR129yEVdatbwyoycGh4.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2jUl0dzX2ECoX-m2t04KJs35eZAf_DhrBUTM93hPti4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2jUl0dzX2ECoX-m2t04KJs35eZAf_DhrBUTM93hPti4.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4ShWMyZyrgpYTtB9M60etY0RiuxmGnrf0sMbcYOF9Gs.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4ShWMyZyrgpYTtB9M60etY0RiuxmGnrf0sMbcYOF9Gs.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5ywO2D2Q2bPGe-tjZrbrTb_rmPMwVX_0Nyhfk1jVT6U.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5ywO2D2Q2bPGe-tjZrbrTb_rmPMwVX_0Nyhfk1jVT6U.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6kApYHVeoR9p8BNlxmqD5sqbCQgpLmlSM4C-BB0Z68o.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6kApYHVeoR9p8BNlxmqD5sqbCQgpLmlSM4C-BB0Z68o.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/7gW1-xKSuWNZJwJCGXTkGQMWMJRGeoKTZ96npLOdFfg.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/7gW1-xKSuWNZJwJCGXTkGQMWMJRGeoKTZ96npLOdFfg.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8kCevljwE6q60iklzG_5qcQ9EtmnDld9DcAgJLgFLXY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8kCevljwE6q60iklzG_5qcQ9EtmnDld9DcAgJLgFLXY.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/95QtLyb4zHEuCyyPX7d8I2vZTPhPKdEtkYhkVeMWoR4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/95QtLyb4zHEuCyyPX7d8I2vZTPhPKdEtkYhkVeMWoR4.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/AeDJepkt0t9BcVcv-qc_agZKsBeSGRyWWGBjluYjB1A.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/AeDJepkt0t9BcVcv-qc_agZKsBeSGRyWWGBjluYjB1A.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Azh3y1i7_qZSnQKG-d9_40K7U55CaHJdeg6agWkv88E.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Azh3y1i7_qZSnQKG-d9_40K7U55CaHJdeg6agWkv88E.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/C5-R2c3Hf6SV8vD9sz1vs_vkn_aJEAtK4g4hXVFVEkM.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/C5-R2c3Hf6SV8vD9sz1vs_vkn_aJEAtK4g4hXVFVEkM.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/CKJskSsKsQo15Bjz1fPhfG53HbEqWKrBp5r2yLSRmvE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/CKJskSsKsQo15Bjz1fPhfG53HbEqWKrBp5r2yLSRmvE.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/CYP8jXN-ortNvQvRMbRUDQUj7ZPtcs2e9eWOeCM_Z7w.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/CYP8jXN-ortNvQvRMbRUDQUj7ZPtcs2e9eWOeCM_Z7w.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/DKzD-Xy11nVOXm0V_fw3BynHEDsupLv0ADEMsGH0rUM.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/DKzD-Xy11nVOXm0V_fw3BynHEDsupLv0ADEMsGH0rUM.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/DW9pvqc9nUWiqV_sMES-m8gk8c9R41mCx5aUQ3QHJKE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/DW9pvqc9nUWiqV_sMES-m8gk8c9R41mCx5aUQ3QHJKE.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/DxLfiyZxkJS6NBaMGYr0G7PNNWXuqIwoPxwyU49dYak.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/DxLfiyZxkJS6NBaMGYr0G7PNNWXuqIwoPxwyU49dYak.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/EvTqVCLm81gdAvF4K5kNnIUo6VUq6tkjQUcN7yXEFFA.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/EvTqVCLm81gdAvF4K5kNnIUo6VUq6tkjQUcN7yXEFFA.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/F42Af5OGzhqG4qNwCmKryv4K5AtFPltIzSS6C_ke9ok.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/F42Af5OGzhqG4qNwCmKryv4K5AtFPltIzSS6C_ke9ok.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/FMDDxR_avrZ1ha8BSObTWFXKK5SpBJlJ0PC9o1jQAJ8.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/FMDDxR_avrZ1ha8BSObTWFXKK5SpBJlJ0PC9o1jQAJ8.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Fn47xZsdrGUFffm8tnm4EgP3P9BVQ3eiLOIeotTGrtI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Fn47xZsdrGUFffm8tnm4EgP3P9BVQ3eiLOIeotTGrtI.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Hi5dDzMPOB7bNIASBaAFD6GoGTecqfhZebuGzoAwZTk.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Hi5dDzMPOB7bNIASBaAFD6GoGTecqfhZebuGzoAwZTk.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Hi81h_kIyIT6as0q8s04uT8VtvdcxvjZVyFidAAKP0Y.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Hi81h_kIyIT6as0q8s04uT8VtvdcxvjZVyFidAAKP0Y.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HoOI1CHR1lR6Vsn01AoQ8l8utw_NG-lmwRo59UOvQmY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HoOI1CHR1lR6Vsn01AoQ8l8utw_NG-lmwRo59UOvQmY.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/IDjFvGo1lLsxCGWF_QVqwMqPsbHnUMjl9U73s_cbg9U.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/IDjFvGo1lLsxCGWF_QVqwMqPsbHnUMjl9U73s_cbg9U.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/I_5bpxkkgSPkRn65F1BcrSWd-RqvUHuGvAWmD_CttAA.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/I_5bpxkkgSPkRn65F1BcrSWd-RqvUHuGvAWmD_CttAA.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/J8hO_Roo_UKs4yhTBafHGc3G2AZyAtLnZe0-Qeu7RmI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/J8hO_Roo_UKs4yhTBafHGc3G2AZyAtLnZe0-Qeu7RmI.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/J9Cq88Q-wGfVhPTwI_mZH7pcABWTpYfYmr-vVTBZ2-w.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/J9Cq88Q-wGfVhPTwI_mZH7pcABWTpYfYmr-vVTBZ2-w.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/JWorb7xqjaCCLppTKjl-5oeT_Il99z0PgQBvFbbc-Vk.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/JWorb7xqjaCCLppTKjl-5oeT_Il99z0PgQBvFbbc-Vk.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/JYyDwcFvlp2d7Yc51vG4Q2JgDw1yeLzE8ta5zbnvVsU.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/JYyDwcFvlp2d7Yc51vG4Q2JgDw1yeLzE8ta5zbnvVsU.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Jvx97eLzkFCWuey0Q0BbkTnzEzXDxhdv_FbKiekyn0s.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Jvx97eLzkFCWuey0Q0BbkTnzEzXDxhdv_FbKiekyn0s.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/MA7rgpAVq_jdLP-OZy8OtUNN5jG_JXi9RwZ4h66ZFJ0.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/MA7rgpAVq_jdLP-OZy8OtUNN5jG_JXi9RwZ4h66ZFJ0.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Pr5sCVaxuRQRaBtQVn6EjIScqK7aE3UET6cB8Fy_uLU.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Pr5sCVaxuRQRaBtQVn6EjIScqK7aE3UET6cB8Fy_uLU.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/QaWln84I7ShZvyFjYr5i5wW8ah4XpC0xVa9jDWcIZnE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/QaWln84I7ShZvyFjYr5i5wW8ah4XpC0xVa9jDWcIZnE.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/R4ttQ3_pyQ0jT3krRfCYHNRf6wizeJ1BT5-cLK0VN_c.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/R4ttQ3_pyQ0jT3krRfCYHNRf6wizeJ1BT5-cLK0VN_c.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/RqeiSzlfI4d_tI0JMrVdyoWQGhxSakZo9xxQzEurcv0.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/RqeiSzlfI4d_tI0JMrVdyoWQGhxSakZo9xxQzEurcv0.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/S7ynmYPt0WhJVbflNASs7RBPn6iYP07AG3EOeQVDpqA.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/S7ynmYPt0WhJVbflNASs7RBPn6iYP07AG3EOeQVDpqA.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/TNVbg1Aui9rcde1UWZL1kkfVaGqGaLNTxzYa-MyGd88.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/TNVbg1Aui9rcde1UWZL1kkfVaGqGaLNTxzYa-MyGd88.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/V3c_2XFG9Yb93x2c29IYMEMzzUMAunpP02v-zprOmXY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/V3c_2XFG9Yb93x2c29IYMEMzzUMAunpP02v-zprOmXY.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/VOkRr8nAZRH0_CQEq7fWjNtZhT7CvWQo52b53mx0p2I.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/VOkRr8nAZRH0_CQEq7fWjNtZhT7CvWQo52b53mx0p2I.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Wjf6JL8pbPC-wQwOqm_XCDRIwoeY5EBFkEZbsM6IRT4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Wjf6JL8pbPC-wQwOqm_XCDRIwoeY5EBFkEZbsM6IRT4.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YYSvsuDl6gnKihXykwrZr-Ue26fI8W0giq47Ip7u5xQ.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YYSvsuDl6gnKihXykwrZr-Ue26fI8W0giq47Ip7u5xQ.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/_RCir1Sv0drQ750JEukD9-4pEXo8Q1KoCtWzV6BP1EE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/_RCir1Sv0drQ750JEukD9-4pEXo8Q1KoCtWzV6BP1EE.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/_zka3a-J-fjz34QbS2hCCHK5uYlDFtjw3j2loFKN1qM.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/_zka3a-J-fjz34QbS2hCCHK5uYlDFtjw3j2loFKN1qM.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/a094oq-zJ0UXHbZpwVNK0ShwVE90b0kUzcQ9W3NWYA4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/a094oq-zJ0UXHbZpwVNK0ShwVE90b0kUzcQ9W3NWYA4.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/cAhbEB-yxlLbgNCsr8t5K2F93gkLRl7_wVNHrn7C68o.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/cAhbEB-yxlLbgNCsr8t5K2F93gkLRl7_wVNHrn7C68o.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/dx14XpH5UACHwaAD-AOYBeyOdBHY7lfFF7McNEw1rLg.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/dx14XpH5UACHwaAD-AOYBeyOdBHY7lfFF7McNEw1rLg.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/e0Lunj9rIu3avgoMqmBA_xg3ZHm99O0cEzB8JBmwoGw.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/e0Lunj9rIu3avgoMqmBA_xg3ZHm99O0cEzB8JBmwoGw.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/f5cfEmWqMZtafnOvIRxY6dicsXjQap2xE3WRuK3C3w4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/f5cfEmWqMZtafnOvIRxY6dicsXjQap2xE3WRuK3C3w4.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gBbKcdaSRd6rFYCq5pJBwsT0A2U6Tq0tzH7TIMCUIWA.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gBbKcdaSRd6rFYCq5pJBwsT0A2U6Tq0tzH7TIMCUIWA.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gu9098B09tukmQaMPkoaJQREFfUc5_6m2-zJ58AjT5Y.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gu9098B09tukmQaMPkoaJQREFfUc5_6m2-zJ58AjT5Y.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iQ9GnuBMjuKFjuwxgKX6EKgno_8cM-qdFDlirwgMAkE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iQ9GnuBMjuKFjuwxgKX6EKgno_8cM-qdFDlirwgMAkE.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/jky3hZYfRGBLbhblUf5wL_IE1AdFyTPGzpJmNSW-i98.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/jky3hZYfRGBLbhblUf5wL_IE1AdFyTPGzpJmNSW-i98.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/kt8c6ClO40_UgXIxEFo6aIz5ILqIIiH0Uj0H7wbsVJ8.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/kt8c6ClO40_UgXIxEFo6aIz5ILqIIiH0Uj0H7wbsVJ8.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nM4svzQ9XemhmlXqEdtEAJLy5bNGFHOzUDvuZLnKius.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nM4svzQ9XemhmlXqEdtEAJLy5bNGFHOzUDvuZLnKius.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/p43TsGKWV74tzXhnKEpYn6HDjk-2pdsGl9WfvRcDpTg.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/p43TsGKWV74tzXhnKEpYn6HDjk-2pdsGl9WfvRcDpTg.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/rurinYhmkJkTTxk9CTHv3Z7VgsFkznDcHYw2wLGj8b0.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/rurinYhmkJkTTxk9CTHv3Z7VgsFkznDcHYw2wLGj8b0.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/sFgpVTDsD1LGtbdp4uiEUb_FzBzdUVjY2JRIah8Nrpo.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/sFgpVTDsD1LGtbdp4uiEUb_FzBzdUVjY2JRIah8Nrpo.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tm0JXlBlIOcsNWQtbcSasLLhqDz_5I2lj096zh1EAk0.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tm0JXlBlIOcsNWQtbcSasLLhqDz_5I2lj096zh1EAk0.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tuEq0SXuQh3A3UWa1dGXRLlKGMt6evB5YqwFJRyPvIE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tuEq0SXuQh3A3UWa1dGXRLlKGMt6evB5YqwFJRyPvIE.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/xAOLYnEu3rWJhRk2i_aNr0yB42TX79y6yL-CLGBPigQ.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/xAOLYnEu3rWJhRk2i_aNr0yB42TX79y6yL-CLGBPigQ.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/yWeiuzjmJeLxJ5nKg5VTkbH7nImtpec8gGFIqikUDTA.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/yWeiuzjmJeLxJ5nKg5VTkbH7nImtpec8gGFIqikUDTA.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ymBFHlU80FD1z9kw1PNdJ-CLyE73HaXvdgmJJlxKk-I.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ymBFHlU80FD1z9kw1PNdJ-CLyE73HaXvdgmJJlxKk-I.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/zSW85Nv3p8lU3Qmlgm1iQgXgAwPg-IFvabvHQCfw8E4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/zSW85Nv3p8lU3Qmlgm1iQgXgAwPg-IFvabvHQCfw8E4.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/zyMkzV5U6EJuM6xgFKfAt6LgaCbS4_3Ka-2SDTeGUfs.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/zyMkzV5U6EJuM6xgFKfAt6LgaCbS4_3Ka-2SDTeGUfs.cache" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/features/step_definitions/onlyLoggedin_graph.rb" afterPath="$PROJECT_DIR$/features/step_definitions/onlyLoggedin_graph_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1BmEbRN0XUPFCdydj_Zqb5uoeUHF8XyI0D2WbazSEto.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1BmEbRN0XUPFCdydj_Zqb5uoeUHF8XyI0D2WbazSEto.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/U1H8l_3v3HYBuAivhscu4osFhea1rD9feuVtM7tYPss.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/U1H8l_3v3HYBuAivhscu4osFhea1rD9feuVtM7tYPss.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/jRlmOrczYC6EV2WI6biTIPuv4s6-G-EJTduak62s6CI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/jRlmOrczYC6EV2WI6biTIPuv4s6-G-EJTduak62s6CI.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/k_LCPlsdNp8llWL1oFABT4-sUWpyp8sS5HI68GFD9wA.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/k_LCPlsdNp8llWL1oFABT4-sUWpyp8sS5HI68GFD9wA.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/s_YEXSoJthNwNTuS8dUDNlkxO1yL93kD1biXq1I2oXI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/s_YEXSoJthNwNTuS8dUDNlkxO1yL93kD1biXq1I2oXI.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/.last_run.json" afterPath="$PROJECT_DIR$/coverage/.last_run.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/.resultset.json" afterPath="$PROJECT_DIR$/coverage/.resultset.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SDQI.iml" afterPath="$PROJECT_DIR$/.idea/SDQI.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/factories.rb" afterPath="$PROJECT_DIR$/features/support/factories.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/index.html" afterPath="$PROJECT_DIR$/coverage/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/onlyLoggedin_graph.feature" afterPath="$PROJECT_DIR$/features/onlyLoggedin_graph.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/search_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/search_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/pids/server.pid" afterPath="$PROJECT_DIR$/tmp/pids/server.pid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/test.log" afterPath="$PROJECT_DIR$/log/test.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/visitor.feature" afterPath="$PROJECT_DIR$/features/visitor.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/visitor_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/visitor_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SDQI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,7 +38,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SDQI@Development__SDQI.coverage" NAME="Development: SDQI Coverage Results" MODIFIED="1459842610350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SDQI" />
+    <SUITE FILE_PATH="coverage/SDQI@Development__SDQI.coverage" NAME="Development: SDQI Coverage Results" MODIFIED="1461250833751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SDQI" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -107,11 +49,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="search_controller.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/search_controller.rb">
+      <file leaf-file-name="onlyLoggedin_table7_steps.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table7_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4251782">
-              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="23" selection-start-line="17" selection-start-column="2" selection-end-line="25" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="onlyLoggedin_table8_steps.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table8_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7169811">
+              <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -125,8 +77,37 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/features/step_definitions/onlyLoggedin_graph.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table_steps.rb" />
+        <option value="$PROJECT_DIR$/features/onlyLoggedin_graph.feature" />
+        <option value="$PROJECT_DIR$/features/visitor.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/visitor_steps.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/controllers/search_controller.rb" />
+        <option value="$PROJECT_DIR$/features/onlyLoggedin_table.feature" />
+        <option value="$PROJECT_DIR$/features/onlyLoggedin_table2.feature" />
+        <option value="$PROJECT_DIR$/features/onlyLoggedin_graph2.feature" />
+        <option value="$PROJECT_DIR$/features/onlyLoggedin_graph3.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/onlyLoggedin_graph_steps.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table2_steps.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table3_steps.rb" />
+        <option value="$PROJECT_DIR$/features/onlyLoggedin_graph4.feature" />
+        <option value="$PROJECT_DIR$/features/onlyLoggedin_table3.feature" />
+        <option value="$PROJECT_DIR$/features/onlyLoggedin_table4.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table4_steps.rb" />
+        <option value="$PROJECT_DIR$/features/onlyLoggedin_table5.feature" />
+        <option value="$PROJECT_DIR$/features/onlyLoggedin_graph5.feature" />
+        <option value="$PROJECT_DIR$/features/onlyLoggedin_table6.feature" />
+        <option value="$PROJECT_DIR$/features/onlyLoggedin_graph6.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table5_steps.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table6_steps.rb" />
+        <option value="$PROJECT_DIR$/features/onlyLoggedin_graph7.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table7_steps.rb" />
+        <option value="$PROJECT_DIR$/features/support/factories.rb" />
+        <option value="$PROJECT_DIR$/features/onlyLoggedin_table7.feature" />
+        <option value="$PROJECT_DIR$/features/onlyLoggedin_table8.feature" />
+        <option value="$PROJECT_DIR$/features/onlyLoggedin_graph8.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table8_steps.rb" />
       </list>
     </option>
   </component>
@@ -173,6 +154,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,7 +171,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SDQI" />
+              <option name="myItemId" value="sdqi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -197,7 +181,111 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="sdqi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="SDQI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdqi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SDQI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdqi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="step_definitions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SDQI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdqi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SDQI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdqi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SDQI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdqi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SDQI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdqi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -211,7 +299,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SDQI" />
+              <option name="myItemId" value="sdqi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -225,17 +313,85 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/sdqi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: SDQI">
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="" />
@@ -286,6 +442,57 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Rake.test: SDQI" />
       <item index="1" class="java.lang.String" itemvalue="Rake.spec: SDQI" />
@@ -294,6 +501,9 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4b7030a7-dd93-4169-a76e-b3f330269935" name="Default" comment="" />
@@ -316,26 +526,34 @@
     <frame x="43" y="24" width="1323" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3254086" sideWeight="0.4972592" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25371966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2576351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41604754" sideWeight="0.5027408" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -345,6 +563,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/controllers/search_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/search_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -367,25 +593,330 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/Filtered_countryList_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7410927">
+        <state vertical-scroll-proportion="-0.2012987">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/NoChart_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/search_index_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/ShowChartforCountries.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Filtered_countryList.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/NoChart.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/search_index.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/ShowChartforCountries.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/visitor.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/visitor_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08264463">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.89073634">
+        <state vertical-scroll-proportion="0.67695963">
           <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/search/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.4159292">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12908778">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/onlyLoggedin_graph.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6014151">
+          <caret line="17" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/onlyLoggedin_table.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/search/table.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="10.125">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/onlyLoggedin_graph2.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/onlyLoggedin_table2.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/onlyLoggedin_graph_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36320755">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/search_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4251782">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table2_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="23" selection-start-line="7" selection-start-column="2" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/onlyLoggedin_graph3.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/onlyLoggedin_table3.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table3_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="23" selection-start-line="9" selection-start-column="1" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/onlyLoggedin_table4.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/onlyLoggedin_graph4.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table4_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="23" selection-start-line="11" selection-start-column="1" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/onlyLoggedin_table5.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/onlyLoggedin_graph5.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/onlyLoggedin_table6.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/onlyLoggedin_graph6.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table6_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="7" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table5_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="23" selection-start-line="14" selection-start-column="2" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/onlyLoggedin_table7.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/onlyLoggedin_table8.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6014151">
+          <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/onlyLoggedin_graph7.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/onlyLoggedin_graph8.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6014151">
+          <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table7_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="23" selection-start-line="17" selection-start-column="2" selection-end-line="25" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/factories.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3089623">
+          <caret line="387" column="34" selection-start-line="387" selection-start-column="34" selection-end-line="387" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/onlyLoggedin_table8_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7169811">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
           <folding />
         </state>
       </provider>

@@ -10,16 +10,10 @@ Feature: onlyLoggedin_graph
     When I visit the main page
     When I am signed in
     Then I should see a link for Stastical View
-    Then I go to View in Tables
-    Then I see Select Country
-    Then I see Select Subject
-    Then I see Select Year Range
-    Then I click Search button
-    Then I see filtered page
-    Then I see export
     Then I visit View in Charts
     Then I see Select Country
     Then I see Select Subject
     Then I see Select Year Range
-    Then I click Search button
+    Then I should see a Search button
+    Then I should click on the Search button
     Then I see the charts
