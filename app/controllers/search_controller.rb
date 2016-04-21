@@ -664,7 +664,7 @@ puts yearquery  # year query is a query statement
 
 
 
-        @displays = @displays.select("(country),(weo_country_code),(units),(iso),(weo_subject_code),(subject_descriptor),"+yearquery)  #Query testing
+        @displays = @displays.select("(country),(weo_country_code),(units),(iso),(weo_subject_code),(subject_descriptor),(scale),"+yearquery)  #Query testing
         #  puts @displaysyears.first
       else
 

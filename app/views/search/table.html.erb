@@ -87,7 +87,8 @@
     <tr>
       <th>Country</th>
       <th>WEO Subject descriptor</th>
-      <th>Unit</th>
+      <th>Scale</th>
+      <th>Units</th>
       <% startyear = @startyear.to_i%>
       <% finalyear = @finalyear.to_i%>
       <% while startyear <= finalyear do %>
@@ -106,6 +107,7 @@
         <tr>
           <td><%= request.country %></td>
           <td><%= request.subject_descriptor %></td>
+          <td><%= request.scale %></td>
           <td><%= request.units %></td>
 
           <% startyear = @startyear.to_i%>
